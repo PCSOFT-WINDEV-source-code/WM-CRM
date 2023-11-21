@@ -1,0 +1,949 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_EditOrder
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_EditOrder
+ identifier : 0x2006ee9e4cb8f9bd
+ internal_properties : CAAAAAgAAAAhavS+MWiQ4y/Qr6aSg+iLmYv0r326da0jktIwMYdYVdFh8v76Ha8goaGaKPX2fdzcO1pkRBqHjmqEAgU0NfTmzYj3vL/FJS2UUM8iXxh9o4pdw3BrdWlCKyDqyxfff+77Y3ik2Z8dYxzqHvEiE2gwc16Az2DWwxoCsaLTa2KDuvxI/Gj/EArr+y1OnMnJ2c2KsI1P9LbGcDz3ULh3Bcd4y5ivkm6F3biItRmJ5ZKs4I2HRGjwagLUfLErEp1QCiqtybx7ljKPg13f7PZsmcDkEGqf/biRkaK9j+SNWZg+DXXmkEzJXyRWEpp92APNV7NiKQrPRYWupTSlAJTw+RDt9CT2OI3nDs8z87bhhfspXfQMuCapcBhzNu22d2L6C4C2c3xo5eMuVQ/8i5xCIeW52IjNBRb5LHqXuYKLNkfZrQae+JSVaaoSo/6sGzAXaxiPoJXf6DIwzKigezrUh0ejcBP/BQC5+BzYcKLyeD0VqM3KAO3O4WShRa8NkhV/pZQLQ1f1XJJQSKW/el+iOzOH9lAPxwnfxKlUFjHX26GtJzOcGlr4GKOPpsd297ZHTcIFkmNlkDp4ud2u2p2os3cSB7j9jn9QK8FQK7GPZOsvo6ZB9JXPeAe8HqJvl8Qvv01SzqFQuET6zbTQi00B9aeT9OeM2vpEMa+n1jGWoptRceP3NT9ksd40yWqkzhwNImjd5FmLBIqSFuZTDxuBoB+bzlF9fa9QE0YY0BmJ/2TKkiOeRsCUHHMgnkwmSmOQe1LHn80BfcsgNa0FDz+uDajUV5nb/f6l
+ properties :
+  width : 593
+  height : 811
+  heightMin : 884
+ controls :
+  -
+    name : MZ_Invoicing
+    identifier : 0x2006ee9e4cbcf9bd
+    internal_properties : CAAAAAgAAABBnmPpKMuZSdBpc3noh3mVq40ZPgoSMQVnONAmoq8UdGheKEaMbUShm4xQnM1G9JcWDhN0Ejrh387bQ/WDs7AWKKL2QkIsGj4I/u49bD04MX49cpGR4umEmUcOTb7jQPgDDizWfsQBc3tBRhNutTsPAmCqMX/4gzaFhlTecmxBBvGnqotgIEVUtvhw/U73R0TvOGdInaTzJiMWOJWM+G9IHAYh+xvral6wpEaGsOvx/UiwsN5LmY3/hG4cZjJpsmIXcqjFFOs0el5S5AqMoRaNqUmndHcni4GH5AJ1uEoWbjZKbEsxAVIY4W6a7nk8CljH1gmKKIniKp5ROh+KHOilvN6xz61dgIPBC93wY4iAl27lbo7nPxcdSmALaYzlkBNnD8XoacnAS+nUTfgYJuJk7oSFGOb7V+uUr1OavB2QolUSoaae1/U7XFEUgFvkCR4E2ylgBCg8SONhsvTmnw3EpRUl0tAoeHVG0uBIEbGu7bs5U3v0QkdMJTI70WomM9t5VW4itxra6p5227hZ1uzJcU9QCEYiuPMtEYd6ZVUPdSmZWrLXhdmu6pcFi68SCeRwU6EP61kV25B9QXYAYQYSwBhk2T+SOUmjfB73weDncDADvBSJolaO/hzeX+GtanSJv2YUcU3KKtAcmo0ErY+eS1HUzNFbeSXbrM81Dbe/Iujr8SE0bLcMj2ig
+    properties :
+     x : 14
+     y : 263
+     width : 565
+     height : 50
+    rows :
+     -
+       internal_properties : CAAAAAgAAAB6d/eWUcMGH+HtDGpfzFteNnFIwEB4IxSICyR7fDTV3pooRrfqJdYnBEGcPAwCcMYrexWFV93bnJ7cay86ohvhwhsRqGsYqH+wLKRnKsusHQUIv5B5ylOH6JgKbssRrMR0CsOpjdPgvUU+Bi+NTLvH1RmDUD8ibSTcV+8=
+       controls :
+        -
+          name : IMG_Disclosure
+          identifier : 0x2006ee9e4cbef9bd
+          internal_properties : CAAAAAgAAACZEKSt5LwDVR00gaCfM8LuDKdKUWjheGxCHYUrH7w0B76qMPu7yrNBsuLQFGVgcJ97WIdY9aRolbxIlDCZtKC/c0Q3XNcz8IKu/qnZYVob9V/2tKfOl9ra1mvc7vhf+4rQpcrhGQIzjeXKmVvnBxUUueFVizMHI8/8+Wyghl9IKY1477AnbvHZFgnSm4Ue5UI8MCL1oHmdJR0FvDdSqi0/hLefukKQRzwm/FYuqnzwU/CKvgb4IbW5AGL1JH1B0FFjzDnFeNE6dNtDT+yJZmSlsQWqotN8CRtVzPvwT8CJTcky4tZjYLYOQL+xmJ0lQHIwDt5kveUCB2Q+RfCC88h4EhZgC3kBOCJoCkOGH/bbBXWz27LH9fI4uZvbXYdTub9RllYL0dZ4EP2EBtT+vGXFtOHKN4H5LYI2WRYYfvyBlbeQPdij5TQUmjFZq9+LONYt/ob6AfcgS7dnKuJ8OtI5yEunm9NShZDxoPnSfLZYBUNdOqDk9q+LdJKyQ5a7YH6kjDDnAUbRFkQpVqNIyXXGjKbJ4ey9g+s6yvFQQkWF+iG+n+QKhzkdWDpIOywgH+MPSXKxEKI3gPLCzYDvz5A8hD1AYrsDodBrhs8ApWSbHsY6N4tDpmcOCvOl2Dd728+juAUihJ5R2N5fo+V/DKNlGJk1umlSOaCTACvG2LWQyPwUTp+Ib6i0Vr5tAMCEXtmdNlMCWglDw7nULjKE00wecXm5Ujpbfm7DrWabIFCCyUn/Q2JdvIksvh7tHbAz+1rvtvwSQ4/oVwS6owIYMlJCvU6PfVQvjQbLpvjSF7dZv7yQZ3rLLfThE1JWK3qfov6iIihDpFVy3BHct/Kelp28vAvKYFkul9VqCtFRszTUJ95oVlrUwfWGZcjBcEYL0k/6UzeWbeD+qOTprqcxln3RcUA6rUTxdqSi7y89RgR7Bfpe5Zwe9M08H9SiRawjMOD4zGcJT/SkWBpS0cqilO4=
+          properties :
+           x : 537
+           y : 17
+           width : 16
+           height : 16
+          type : 8
+          code_elements :
+           type_code : 8
+           p_codes :
+            -
+              type : 18
+              enabled : false
+        -
+          name : STC_Text
+          identifier : 0x2006ee9e4cbff9bd
+          internal_properties : CAAAAAgAAAC/D6WBM2i0796wPN2oyuhh2n8xzV77STPCu53+zyy1tFhsxuWNz7j0K6iz0Cg+XBzZsvJMGF/CReI0a/vDMHuxCWfVSJgpFRUzx6RRCYuvTYrzSGtgLxldRCpJuLrhYl/aYjI8pKjE8QJYJAFU4B7LidpCd/dXGOu8RoQdmqGYV2+gbRp+luKeamD4i5LnPgYBjIO1tcV6JAWahK+n7HZjkhqCmiI/eA4OaQVzF5pSNeSmJIBu6/i1N6uSbzswOvhOEugkfyhSJIpkbcYdowo+DhTSlchropPsoJtnpiCKZuv5W72dWKljmjZkg+sH+RtLbQ0fhAX32eCV3kciAaPAw0hmI1kiahZ2ZbPCR1YWxo89NX+3jxNUajJ5xIq3TkBK7mt2Q5b8H1UPvjfsayse+XnA/4DqRkW82rNms28kS8hogxp9urPGHhyxhZGahQZmgaiNVCXX/Zc=
+          properties :
+           x : 12
+           y : 3
+           width : 522
+           height : 44
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        code : |1+
+         gbSelInvoicingContact = True
+         Subscription(MyWindow..Name,NOTIF_CUSTOMER_SELECTION,"*")
+         OpenMobileWindow(WIN_ContactSelection)
+        type : 33
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+  -
+    name : MZ_Products
+    identifier : 0x2006ee9e4cc0f9bd
+    internal_properties : CAAAAAgAAACI/ip88EaqPRB4zXgFGondA1B5hZgvYdRiQifUGX9a4SMWwmm69Bpf1YRbxituISuYPUNXqZrzCql10bTXiIe0aWI1VU8TJAFJT7GXEgOF1ICzqs/BE7mE5stTi7GPi7kx0fGutSZe2OEeSQYts7BwWMUAwMh5FB4PyLmhkJ+F5SrRmKTVM/Nn4R6UJPL2Lx3DF0tFRdu1qriYHXLA5cQcbmYLSQ7XbokMJKIUNfvtV00Rt93lHCXQzU6JZJcrZvF/Vcj7coB6EsFWS3pHzkv9BcrvY98lYP57LFY4P7hsZ8wfjQ3DuoD/1XC2PZfTWmJaFQPi4D8fGGYFub4GA6Fq9FYczY9x3jr1au74acb5Dus9vUT86nsrU/AzvD5vyReSjLp9m4e7zYnxUOZrZsZ1POm5yB/SB+Mzz2MOQ6EwbJUAn+p+oa6Z2kM1qVX5h0DbAX/53JmEzQMf5iiKr4Qv1aa5a1Ej7Mj6aalqs3/k2eZLZNq8dA2Fc8G9GcYz4GRzsDM1HKTve4UcGRskBS6Wp75Ye1AXkAKAjubiUe6uqp91Ftr+YBs9lXhMFT7rQcNLqlXlZQM6RT16oCAthhh1KgG0gFbbSPFs9zaGBYSjZVQ6SuAbFN82d1B2WtR1LW00MJrkxh6u/2IpW+Wy7H+f111stj53Ct1qDIZ2mzuGY1NBUdXBSEJq566N0xm6
+    properties :
+     x : 13
+     y : 475
+     width : 565
+     height : 142
+    rows :
+     -
+       internal_properties : CAAAAAgAAAAfUCtf3YaKMudlQacY0S5yrvAkzCejbCr6fLKQEOIoZBBy2lWUNDylKkDAInqyFilOHL9Jc54lvcz3kgA4fxzETQhNvDfzxuBRvcHWY+Q7opRG4c0TKZBH1g6shfUDWzCZyYJDkhjF8rWKnpRcRK6aVAq1wDzDBA==
+       controls :
+        -
+          name : STC_ProductName
+          identifier : 0x2006ee9e4cc2f9bd
+          internal_properties : CAAAAAgAAADgQTJVdIS+RuMYlbW8WXfeOKWng3cnLyOpQ/poZhUGr/BMPRD58hBdMPP3Ez7BOcS8LAQIw2D04bi8A6gvUuULsUQEN2azNVYSLaXMHSm0OsTs0B5GpXKu2kEb9zpW85vZvtBdB1neUPpUS0eQIyPdWxgw88EHDrhtHLN20lRZcfgnmF/mOTWGZNL/Et2p4j9a+hXlVP4AaMbXZkeC9FDDl0feFSVfund9S9ro8/MU49VQLTNrMHY+Eak/6Csbmzsogtgw8SPXW8Ucimn+DNSY3AqSgQ7sudFkyAdiVpx9EEoQySjor/3MkkE/ARYs0nrhKvVjsNJZEu4bNHuye3+aCdQlnW0J7NJteAcnLqQry+RdzheZarECIyO7rSTeOEodQXEQAkvl7jfFnF2BTfc=
+          properties :
+           x : 10
+           y : 11
+           width : 340
+           height : 25
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : STC_Quantity
+          identifier : 0x2006ee9e4cc3f9bd
+          internal_properties : CAAAAAgAAABcUsD7OyVax7wJdoLJ2yBZ5coW0MS21wDDcIKr00b+GEmLFEdGCmFv+mSje64zx0Yw2ehzwwIZFFX3sf647ZLpPemue1tEa7WaCBRELaiN/9/1V/svxcEPbnT0+XsF2hlhNGsijcOPf2/GU7UbU4HZhFb8UdBidbsC77olLQS54cXtG/8P9WM1sPbNxtSAFwyJcaFnPDb1iPXcFuzpskJmC1f+w+NzENz3D/z8yxxb5ChSqD7Cls9ZkPAEHKainvssQAPtYtw2yCalANHYhFI5t7+bUXBfVKnz3YG+ltaE/ObOfFl5IUG1N9A+oVEH3vQaBttC5nohqLANhSRkbRanKGgV9Hdib7UC14YgB/tyrMyptt9xV1p2qcUjA3LIIHCz5NpRE1IKcfWFv8JuMYs=
+          properties :
+           x : 352
+           y : 11
+           width : 156
+           height : 25
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+     -
+       internal_properties : CAAAAAgAAAAinofJHcXZqvWYVjq7fqS4Yvg1zWNtOyo3JwJ+Nku4Rl8Zub3oIuja+hm6qybwFIVXE2q+nUWfLnwfmhB4bQOxMxagbUjWySTA1dMx4ZKCs/jHBYrY/BWNSxn6lO3frbcmXbdEz4KCZqiBkb+/52aF0+VnIZD+OQ==
+       controls :
+        -
+          name : EDT_LineQty
+          identifier : 0x2006ee9e4cc5f9bd
+          internal_properties : CAAAAAgAAAAh6vEq2DuCQ6zhkggcNPsVlG67OmjIOFlo+2Jhu4a/iBF25SZl5OJQAH56OuS9bXt7hU7+Dp9n3k+koLddB7LMjOwGbvw6kytOetK43/TnG2B6WBCbQYwiQoFn7JNmqy/kjtmeuuZgzxG+hnr+8BZv3UYQGOtDhl0lZ0b6pWZdEYPx7aKTnRzT1k+H25U376kLCkw7WwWvIYn7b4si4XldMmQZJ0kHE8MLYjdH1NuRBpsv7d9qEvDg8IxJauXeb+0sTh5dVBEu7nFhNQpPeU7vHGS9QtsQ2Ga6jrIiRQjercFg6YKF9wFFR4RTU2yPx3+yW0BrkW1j0lnmTTiLsaJ7bhRbQswjTt2jQdSIF1D4TSiBSrkGxik9qhQzDhpWur+6VnYPyWpfJP4dz5/m/7RmgfmK7a+GSnzFM8fBGh7jQL81WsioVC1P1neWwHOBG8EKh+IqO2NnLAA05aV4e4Ss2ifhUwaL+6btYuxkjDI3qvRm6YL98jWR1MFSsX5vCjKrAVQsestJBpBESKkOYKbCJ7e6olO1NhAcAEJAdO13t8ikaViALefWpDk9aISiuWEeG12dFppIzejTrlp1S9szQCK1oVetQfAProL/mMjx4lsBVzUUnj3+4HFJLLwskpMcmNP1D005x63hg4ktNrYWPstatkhVQHvsjNeY11eXD2zmFVRrfeIYRSWGE/GbSnBisBUg/ct2YG7LNjP2KugcBTcYtsusviRj++qK++386efKA7aLflSlo51cwBs4wViOf8m7iuQSj69nlTIpAzDEEZdOFajhuOBnvoIf/2C+ZLwjWFhi72KYiUFFr4MRPUqhWEAWKZx7KuxV/KuMjcu/1JoXX/WBxHWRPkChWGc7fMRBQ6JP7GRrP8DsimqMUWybIsfkEshuBtcJY+txDmWP3F3Qnb9GrUwZsTFx3hXLCO4H63jKvxo92oSVfkQj16jpOZxPf4BM6fsKipcJDud3otoUHDLLZKFpzDTbgDGa69Dj9zRDzJos9+6Ufbv37tOjF4poToCkwJXX7KVjCRluHjPWEHVkPZVamXbyVivZZVW9vm+Tr4/MsRGrLY0LSa2IHct3Q2sgxW2gqnFpnbIhCtxowwKPOXga/zIx+jySdKINZEfbAiX/88v/3RysL2r1JZFkjSOHNR9MEhNKJu/C3ktNkQ4VlphsVcEU4wOFx703LNs=
+          properties :
+           x : 352
+           y : 50
+           width : 156
+           height : 40
+          type : 2
+          code_elements :
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+            -
+              code : |1+
+               garrOrderLine[MZ_Products-1].nQuantity = EDT_LineQty
+              type : 17
+        -
+          name : STC_ProdNameLine
+          identifier : 0x2006ee9e4cc6f9bd
+          internal_properties : CAAAAAgAAABqOmFFuFFhWEAZRIkTQac9+cF0FncFLdmg6LU3yPbclgLHSsHT43KP2JS6caEWUidMK4+IvNp/V2NjOv32IOewltsKosF4FNa0JOb2v0zJyxDlJlHUy28tcycio7iDcvclW9NiCv6tDSyrLvy/5rnVCDufQFGo4+7qJ5Au8dowovQKSJ5nPhJf0Z5AuUU/7kI1qPra4TGkUu6S3vCaHqlAw+yfdGetZejuoEturVuLoonlAp+yH9JTWb3DMOO2ZZtKiJuLKv0dch/JjqkY3Ev5qBOhkgfIzq90PZeXhuASBFlp/DSyt7H1yZW+nVBEH+nh1WYmeedh1MCv/Zmgd6895EacAULWkFRDBb1+Yzu1mERzp0bgOJzrGpBuVSCp8GZ6siLOZ4eUiKI=
+          properties :
+           x : 10
+           y : 58
+           width : 340
+           height : 25
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : BTN_DelProd
+          identifier : 0x2006ee9e4cc7f9bd
+          internal_properties : CAAAAAgAAABQouSrz0m2A/1zvbVb543qebRRFeUm7vSJs1oDikFoI3n0RwljCmJTxtHwUWh0JKZ2wq4/CuznMFi74/lgUst+5wjL2izaBqIsCWJoUzUc+Y2sl7yElZrtEeAjOCZu+VP8Pq9jT4b4TZdiY+wMBktKWie65Fdqp30L8RyelHQHJuGIhXnwUySzT3+rg1pS7x8Qk1lGsNq7JPButRSPO4JXGbDD2x0FFHx+2RhbPef6HpR6G+IPej6FT4gs2TEgKOlgGiKfkkhMKZK6NVp9KP8M4KJXpFi7LzyyG/U8niefK3l92YfNPssdgbiRe0KXbKiyRNJEwuLfODL1H+dsL8XpEYa0uqoOePGhFDkWW/fPKqK7Evk+QV9a4hh31l820DlNMF029BhVAFtNbBNb0c1eeG0jkcjbsLPY5CbM8INLZfZf6SEM/APNPjOD31qv7jGtBoqNkSxU6vcC5q0Kzc8aJw9IiegVI20eNev4EjDGZIlPU2EI+OAtivj8jR2C7/jQvnpyRbccEekYfYTs2l0DeWY21RhA2MzbUujLqVd0qRN6JnMecQqDQpdnc5EHiiHkalu78y+rdkfE6arVWJe8Z3xo2QAdDQyrTjVlVcNbINjsIPWMe9mLhWvpzsXe86UwVCJxVtfFH4Wx5vOw8ihEPCZ2vf/vYQsh+kG7x/b0RdCS66Bv2qdTwOx1UV7Rl1jwV8l52xMPg4X2oWrt1JSXccEmFYqhn7mUxQvMRKOmOBzouoI3rKWSTHX7FhrMR659tflYLTNCEs8xyQ==
+          properties :
+           x : 510
+           y : 50
+           width : 43
+           height : 40
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               if YesNo("Do you want to remove this product?")=Yes then
+               	ArrayDelete(garrOrderLine,(MZ_Products-1)) // -1 because the first row is used as title
+               	mlzDelete(MZ_Products,MZ_Products)
+               end
+              type : 18
+            -
+              type : 161
+              enabled : false
+     -
+       internal_properties : CAAAAAgAAAAinofJHcXZqvWYVjq7fqS4Yvg1zWNtOyo3hwb3vlPQjmdRwZUw+qACMkFy82EoOU4wOtZAn4lfDqh5QGMnVBxKqhOlauWOxvKT/ot5KVq6azD/zbKgNE1FMzGCDG3frbcmXbdEz4KCZqiBkb+/52aF0+VnIZD+OQ==
+       controls :
+        -
+          name : STC_Add_a_product
+          identifier : 0x2006ee9e4cc9f9bd
+          internal_properties : CAAAAAgAAADJ+8WZdKe8bTeUq25YhRfqZtEyHWfKHB5xNUZav3OVOEjNQt9URvVGZd7iQ/662ip1MEkWXa4OwHifxvvZNEL8sig1eTk1yU4OnrmhXZpvchQ4qJovoKFNPQ4qiHJCy19UJXnb52ggwzR8zGN7SayrF0xcFEQ8mBEjOAmspvzIIX//ezqXkMW5KJr6deVjPk/xY9I7Dx1YDNrGPUSDpS0DI0yIba+ERaqaX+hZJyMMniQJbGNhCRmMRh09mV8qmDkVzOhon6HiN2TRpE2XfQ9OCo4dXpxkMfLr8XX1bbkTnLTIbAKnU5i4hlNmJCJBF3KZ48UGVmBn6zSXZYeVvL/K7nVVJchlLHUErU9dizBU/H0TPXBU/gt6nCs8gabCf7UXm4kPkXxps1JEFY4=
+          properties :
+           x : 10
+           y : 106
+           width : 173
+           height : 25
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : IMG_Disclosure1
+          identifier : 0x2006ee9e4ccaf9bd
+          internal_properties : CAAAAAgAAACSjnQQEiBp7XK/TrBUQ40SsDlk8/4x8acsOaGKJLDHR2l/dti8tf/Sy/IDdXmpetWzq4xluvbSxueCYAtHBojzPErUXQhJDJ065sGgBrL6KEEb4dxfRjWfvjQQc91y0Gl0g6v3rME17D2UolQXip/01qz6REY0ZisZkTnDmEIpF8adJwc4q7sC0+LsFWW56yF6/vuCuEctK+M69PWV5mfdqkx+CpD3zUur3CitaG9zDVZbP+4+9m8w4bHn3B7G8Z1H0VuV0E0ggaTS92Dj/f+jGeuQM1uthLVKX4IzWEFp2TyL2myiWEkS/QQQ3mJCdRPuFfr/MlH0LR6+BnUc37siSkK2azNeHykdEMz502OZ9Z/oOLsn8nCDwD1WsPki8jABatV8cTbW0GSWbBLsrLCFoVXYyqQaWcGRCPgpIYHf81mfJ6uyH+aW728enUFV5y9srnbGc+hLCjAPHMVGeHyy9yEG2T3Mz1CPYAQKFJAImKnEtI21Av4oAi2lPeJWQHONhmNTZ2Vd2svtURJJ618HKVmRslDYSgC26HpJN/9bvTwcPpavMjKcYhGUqpDEJsumcFJXKqOXsZD6xEQaCZkkm7O/QYPmxb9d79E4FoSyMJpASVNiKmgGnO1JqTEwGdSUOulRpgbexP0sgio8T5G5W2bq1k4STwCSn2e7n2IrGs9HOP33ZoHsgfKP8luC3k1qlOOhosnZNNjKfeLZm7DpoMJvUELgmZVpnBslRTNiAIw08DqMfObnLn6WVameuBB31kCM6r8LO+guV79mTu+UspZuCuva5KMFo7dAlvLTkVVjqph4pL5ixycPm6s41ExacGcVDWch3QkVSYfUBaLC0q1dp7KmgpQmiGXtkZq6Rg2+lUE6Fef0hvObRYMy/YHdYVKTQdJOdzTnGxgvXgz5Rfi7PJLgD6brTSuSEVeD/9ac+fiZgozcBIOuyJzH8X2NW8jIf/eIoPXjIcxKw/3Rp2M=
+          properties :
+           x : 523
+           y : 111
+           width : 16
+           height : 16
+          type : 8
+          code_elements :
+           type_code : 8
+           p_codes :
+            -
+              type : 18
+              enabled : false
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        code : |1+
+         if MZ_Products = MZ_Products..Count then
+         	Subscription(MyWindow..Name,NOTIF_PRODUCT_SELECTION,"*")
+         	OpenMobileWindow(WIN_ProductSelection)
+         end
+        type : 33
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+  -
+    name : MZ_Delivery
+    identifier : 0x2006ee9e4ccbf9bd
+    internal_properties : CAAAAAgAAABBwjGXDpCDtv6yLOsLqFBlP4zfnAWGMY6XnMIf6zkVjYAFLh7gZR6Cf39Bjc2aAaRCHMy+9CN3WoC4nMy0VcshPIEQxJ7br/8TZs1p6FY+EwDYQlE8Osn/Oz01q8iop3vYIb6qNpg2xl3OXAfDirPKMwC8v3UTwoaxYdr5FXN0ZuVSbp/Shgyzbx+/C7hsMI3vzUKk8aMwKKapo2DUtfPI8zE79+O+E0H4crSMjVQbH3pliK+Ju7s2V3NV26Z+vuLksd6f2jExvsH0nOXOjnhO1Nv2xm8OoD7TEDE0qffVG84pZjnZdcl1XYDIAlHtje2Xpkr+1guMHsuygBhkUV+TCg5+umATxk39cdFjlWw2N+XlEFu/Y15UIDenPWytoFbgc3toZfrAq8Dp6JQi4BnWr2B5K3bvQP/m66rHlKrES7YV7lxJrTWEsnmF2/OeQhEvVteXqTWXFgaWeC7YqT1sZ+0fYb6KQamDvX5mi7tGogOR26qKY/d/1D7UGmwrAggdjGjjRXe4nCxkDDZrIRfp8sTxgyJ1RHLCtzuIsC0VB3SDdQU4HGxH6TCXNJbutjx61SkPtpiITpSBv7pEZrNioHPnHa0K38QpZSkXBdGu0PUwZeNEn8rvA3aXOGcB2sbVrW7JRxDVTbZvPaHP82QWaemaQdqiA6jnRiPlqWQrAdVPIaVeBQ==
+    properties :
+     x : 14
+     y : 367
+     width : 565
+     height : 50
+    rows :
+     -
+       internal_properties : CAAAAAgAAAD/2opVnI7B8L4ux6+cj+YZ8zwzi4Mr/vHddDUaVqDFcEJqkO+2kZy3JP+0KHoiNNYMIB2nfaMT8uiACRkON5QoQ0IS/Vjhf977sClGQdpv0lxlHj+AQcwEbRn9NQL4T2k3VZZG4oad+ID5QfRKj/6EENze9YTlKmMf6nI=
+       controls :
+        -
+          name : STC_DeliveryText
+          identifier : 0x2006ee9e4ccdf9bd
+          internal_properties : CAAAAAgAAAD58fmnRuOzA89EfWPHRvgWWVO1v7BfwYrU26H+c1hzJF+XzOjf2J5cWwQZWs+OHdM/p9QZknCN5p8sovXS8+CAWaeBFF+0byFKu9+menwPQpdMnDF78+YK7+BZbK++EtPSB3dWdyrlKUyxh5GkARoDXKKAwKgmg/5xsok4bXBZqulyNOH6I7z9yRV9udFqC+t+APTNSFiBoAT2QP5f1VwVt0oNAOhPJ0kI+f5IEwVTfaqNgKX93yjVn7/R83s4EQnChsX5FqxDluMc2z0SZNa9DPapiILMjrsyTPGUa9I/k6tqHXzajoY2r2j+udqCyYqfsAsBDu1YOSXklRQc0My3lxSk63Zuq+YfVYlWkudY+hI5rC6i+diqjfdCHqIi8PgJVSYH4JJ90Um2chzcO/cFjk7p3GoXH+cq9XP7tKlNpDz3knG2wrsEkdfwsEa78XzFiyb6JUXC
+          properties :
+           x : 12
+           y : 3
+           width : 522
+           height : 44
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : IMG_Disclosure2
+          identifier : 0x2006ee9e4ccef9bd
+          internal_properties : CAAAAAgAAACGZ4EC/oUtbQGd+U35rVeJi6CHGvbsLP501oMNuLUKudGoV4lBbib+uT75pPhDonvw5kdQ6hxveFOro4Qs5AOR1J3D1u0ovjjGjWlIz17m6A+Ae2lQ0fqh4wInVbbWotkHXW9uZcQOt9ERP32Z24sEqe2i/sO/B6fu04LJOPNY4tKfLjKI7cEBTTPM5gswgcVQcR2He8APSMNhQlDMXTIsgvBw6oDHiaIN/Ug+xEhD4EhEurMAv7rWdmnaqMv6PwLr+Whowaiosuf8LCQmzFNrj9fMv3gOXenM4cPF32nqt22LILHZuD1CIJwiGlKOhp7nAeHLVBburh7tZ+xjtSr7LtBzHgUbIIrsMSxSpw5+ezYd9P4E6MjLziIxYt7QW2fgogZNUMBUmyF38ktpCRhvgsoAy4Cd8krDAP4lXGfOhyt/07hlridhoAGCccTmJMMTrjvJ55xSYytTncf9WWJGdkHltwRRGKiyIF0ITPsgVM/xpxfSPnN1ka/pKRV42obTJzwdjXPMPlXGXtJSJfbkR/3rU03/J6Slr31JkiPQpOYH0ZujoLVH1VdIBRt75DHq1dUL24uCZKOMJYOchLZTLHGLhHvrli6kZy9v1kiJHGsLW7sFNaDuLB7lWnWq8866kOVkC9NFmgrOXmo0AD0aAzMvsEosE2VFzKJc9RYqSJmWsWj/yINBN11QDlEQ969q/Wih8k6+fc/UYS5hPE/NMupAYeyAaySEnM4+Mu1yRCeyWP+/7SC0mgZE4/niGfkKygdNMW7ev9QUiZnyECVz7RH33YQmrRWw7ajq2tKy8l0Bf0CiXyqstXT6L4UAW6Xehjk4Kn63buRM+uo89gFWU1rEBJM5Hi04prST/coLzsO66oYznwUBE3BO4N6jryHLsM96/aFsSc/KNV0sJf/t4MApGvGBwVYxYMcoRtZmLW0zy7uub4z2LDIhWa/Juk3+7yYB44FMCUTs
+          properties :
+           x : 537
+           y : 17
+           width : 16
+           height : 16
+          type : 8
+          code_elements :
+           type_code : 8
+           p_codes :
+            -
+              type : 18
+              enabled : false
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        code : |1+
+         gbSelInvoicingContact = False
+         Subscription(MyWindow..Name,NOTIF_CUSTOMER_SELECTION,"*")
+         OpenMobileWindow(WIN_ContactSelection)
+        type : 33
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+  -
+    name : MZ_OrderType
+    identifier : 0x2006ee9e4ccff9bd
+    internal_properties : CAAAAAgAAAATXKWhWSiyFVifNh8ipjEojuS5WfLZpkSZPXIHg7WgCQ9vrZooAre0lvz9ZHh9oV5UmwsBjTZQgMBdlqK6C6uuhZKflxvkpN6h58JV7MDPqNQc4QcHGmOG7En3/Jz8vnqdQiFpn6dZObOkHXgjJFuObxpXcinTYZfwuBGY9Idtd3tKAcVAKo4wPSkjWfuye+v43kYv/F+kuURWv71XH4mnsII3AmDUPXQquBYJ8vzHoqL5xdypSpO+9JgOunqcDa9YDGC77kbfTpKnXApQkFNDpdJ5bnaj27dMYGhNqS4dBfg0bHyvGjfhhnrnSIy21KcUiTBAwTLsiwAjogf7zpLZmfE9da8TQmCQmDHm2Z3s+jhpVZJ1l0iRIFroGIjqYtWfbvjJ8hJYlzAJs0opj2sVkSP3WHQjfOmEX8bcr7q/tgog09wxgm9nwbnup0nixJb+i82dH0AjOZSBcyKa4q/zJIzbfwzIn4zvTeh8s0rdDfnV4l6VN4zxjn9O75oC3w4oCPcnCW9uzWb+Ns3kUm3MPm5ceTHMgUqp2OMM2Y1lpiwd+hztLwRzCD5dTWjUbHHE+hmLgO4lIbiihZxnE7O1LbVsQmuaF60fKSMKp8NKG7/UwOg+zZyimlTPQi7gQFvDInjoT+td+88J5naZB/4Ls8h3e2NY7UW9g03odkHvkcazFw5+NU9CNq5Mj5IWXA==
+    properties :
+     x : 14
+     y : 55
+     width : 565
+     height : 50
+    rows :
+     -
+       internal_properties : CAAAAAgAAAAlLKBfmoQPNnhsjeXaxaxXwX5BNUlhxPfvgpGi0vYTFjikzqkMB/pFhm1AWsz8FsLvgVEzAd+bcpz4WXnaWSKayUAsl3rrZbxd92ti8eZz4o6P2M0+01oKz5MX81CK9YPNY6RI7LzXsk43DyaERUBKVpocN0bbJF0FABg=
+       controls :
+        -
+          name : IMG_Option
+          identifier : 0x2006ee9e4cd1f9bd
+          internal_properties : CAAAAAgAAABrQlY/1uhcdfN6zyaYm3rQRdg6rpE2uUcrySc2kwXPvaFh5nOOe2lJP2q2aYxnTzsmi3Ynao2Kch1aKgoaVFtFIW3QODDEYhg+8QZBMf9eGadrxRJ8S8UOkbYrhnE0z2UKCbNdKzm6O0NVORvN8sj1LCup7KucRzlGL/1g2MAemenQpoK4gOi1FsmI/yt10y6P+z7BD6GoRzirvP96vdkobJJ3IJIq5VETR0aNSaes95RqeLYnShtC2jGCId2pEaQMNTTdLQg6VzmmTPBE600UEc7wnFMLc5BOeO6qMQVCuVgXceKEVkg/C1/thGd3qzycDw+CQbXiXBJp2cU84NTHxKqAXdi/iwrsJvBYNF0TZBunADKfaelpPJec7f9Uj9WO5DmQHAxxGHUiFpFmR7RKaC9d5B/oE21NvtkPPxrHYjL6U9dFA2X9v3PCpHUVjIFdllYh3hKQRDlLOZsUQm71L+VhKNIYFTvzgWHlOuzVfXKxJTS167RvzgrAL2QV8y+a7myWVRS7nTE9GcMBLbIbl9sF+5ydCNUs3OtZW3VBxjpnwbmspGLyWnyLzF6esvDT1Llo+IRfwhlp2EnkEcMzaJDjGglGKjMu1KTNvFTrPuAePu8NCLkiifohM5YMlh3zMgyNa6HEvYTWIcc2UoyRvNdwcvOjtPpsXnkwfm5RaAwDpa/g5CpiovGeUY+uWBldyhz4XNhPCSVlfigK+b9QQ0VgqK414cZXcIwZCPZZsjACWz2UzRFzvvatC1hwWIEXRqFVYvAiyuvm0lvofnBYU+hcTDOo2uXKx3rZpMm2dEMP5nuA8rXC8E9TrtXA01GXHxUmL0JD8XpBLGsc3NqC0PZLN0TIL2rwhHO3ieRe1J1PD3HbKj9rT4w1RU+kPfaw8alkp0ZnuY2CxMujqEH7V1fpPnwReVtsvnd/yPJ/yLM7F8sYnRxnitu/IKQfEgSUUDpYPhtPLRjEQ9iwZpw=
+          properties :
+           x : 1
+           y : -1
+           width : 50
+           height : 50
+          type : 8
+          code_elements :
+           type_code : 8
+           p_codes : []
+        -
+          name : STC_CreateWhat
+          identifier : 0x2006ee9e4cd2f9bd
+          internal_properties : CAAAAAgAAAAQB20WO9DEK/TZDtBMhFI89H3R7Cx6vHUgX6POKWZf8rchzJTCUCuGmLv8Z2BAnYJyi5n+HdQwUBLt4Bjx0i2MRP5qRMwVMO19G2FOMudojt0DsBxsDvNe65b6HmVkyfkcXT6KiNw7jym9SxTJQab768KPc54xOtdxe91UO3tfxeRu8HWSqaIHEHiLfdsfaCWGBFCK9ygcvpSTRUJgK1ed0oSF2Tf0E4NyiekITbPSmAU0T3wKwa8caaxNbT247HEoY6ktJp3W5ItDoYu4VmRocwWTnurSrYpZEfizvg5usOsumJBXYAKsHOo6A17WquMFveuovYFTLncGu3qZO1FG6cHXjXWpZ+CkWD2DzhEeNNeLAPmfDWLrBDYnqTZkI8Tjb6CpontdK2tufPSrHA==
+          properties :
+           x : 63
+           y : 15
+           width : 467
+           height : 23
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        code : |1-
+         
+         
+         nValue is int = MySelf
+         
+         //Optimization tip: _A_ MZ_RadioButton..Occurrence 
+         // >> "_A_" instead of "A" is used to specify that MZ_RadioButton..Occurrence will be evaluated once only at the beginning of the browse
+         for n = 1 _to_ MZ_OrderType..Count
+         	//Note: (n = value) >> returns True or False depending on whether n is equal to nValue or not
+         	//Used to make the checkmark visible on the row that must be selected
+         	//On this row only
+         	if n = nValue then
+         		MZ_OrderType[n].IMG_Option..Visible = True 
+         	else
+         		MZ_OrderType[n].IMG_Option..Visible = False 
+         	end
+         	
+         end
+        type : 33
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+  -
+    name : MZ_PaymentMode
+    identifier : 0x2006ee9e4cd3f9bd
+    internal_properties : CAAAAAgAAACBh9YP7U7+l5GHh6j+IH5orCFeHT+P1e1jikQuPpoTqPJZqiW5252UHIDD+0ox3CIRXnAVzwD1HqLm9FzKRyfAvncKVUcXr24spSVimLKQgUwvIEKhSroc4T7yDL4c9Fn4cgruHXQaxjfan2zeETESMxWLr+9pJUGZP5MSQRQmzSW9yGwHokFtgMXr4HUL3mYEWniI8yN0lL1KS/Xpi2LXtqXmWRsD7RFHrT0Yh48z6En2tFKz9I/Bz0deOWhFCXvIF7Pb4Mc15iaUliArPkYXl7cv4IUtjNgVEcs8uLqtWRZ/0PzYLNzpkLwY6gGPFTasHFVAerJLUyWCKQfmmfyGswDIiRG8VryFm/PGITdk6PWG7rG+O1uCfAPIkJJc1gTg3ZNdgjVoo+SDvGvQWw93ECD/MOBn/j1TcLf8l+2XkpMLCVy5oXUehNDEBxZ8YQl8c7K5HDIv24MyIgEtVVG2rEQSy2G7rPKhbPoL3gyvYDyYa/I8M1nTBaWksQ6qA1mxrUxFMjT8FAh/dhEAIZGvBCJR7C6fbQAwdFc0I78ORRf7EK0sGyqa/IBnbUyB0vxOfuESsza1HFiwemXAg9goh/+KlvTOZsSoa3HK1wYXaF0dGQetSIT3XeoJ9oEvG9LGiMPoU9inrw7qFekARK+CO1Zm6pAR52uALI5pJB8hIabhhnzPhCnJpw==
+    properties :
+     x : 14
+     y : 159
+     width : 565
+     height : 50
+    rows :
+     -
+       internal_properties : CAAAAAgAAABPatrlDB5xYK4+N7+MHzaJA4zDW3N7LiGNBGa0PFB1AHLaQF+GgSwHdK/6VD6+nDwu9OGj0S+LAnwYCSkasQqy0cikb9Jj7cQlEnVQG/ydSCy17u/QMbx0ncktxZJI/zlnBcaWktbtSNCJ0WT6/w6UAMzOhfR1uvPvOsI=
+       controls :
+        -
+          name : STC_PaymentMode
+          identifier : 0x2006ee9e4cd5f9bd
+          internal_properties : CAAAAAgAAADHgc8/XoWC39VCRrG0Yp/Crb6hbDUDRb6+dnGaQN3Ef4+ipWbIoTdR89vD3d9Ownpxman6U0bnaplvCdenlLT6kPw6IefggS2JqP2L2zPsdZPi1fi5MMRCo903QS1ORJ95XAkhlE305UiiZpG3uomWwBMqyJ7CPLnw5LTtlyPXU3aT1ofc/joPjJwwymviTp4LOL9g15JH5FD62FuBR5giq5AnvrWn2ZKfEgqTS+lZ+qysZFWzJziZCdgC4ze5vZTWEx1C2c+ITVf6wfPRqAbCtuFAkeXQjUCXeh+nH4Y5Hj6kFRyRVBEA8QRZYH0X5cTJljhhpINMdu+7j0DI7I0OM2gK36xwwajLxFZWjL/GqajQalemSNVHqSAlNBdRbe+w4Us1g0IDzXg6G4A=
+          properties :
+           x : 63
+           y : 13
+           width : 467
+           height : 23
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : IMG_Option2
+          identifier : 0x2006ee9e4cd6f9bd
+          internal_properties : CAAAAAgAAACZlt6CFynQFALdwfnuo6AQPb7dh+iA5M1xO96bFtMSmg5NUwHlaG47R3ETM6hSFkAVpHwnGNTxO1Df0WJ8EVkpLPoPNeewKl01FM0XaD9ozB4XrPT3Io2MedpvrdFdQDvnSc37fN88LLWVD2F89JVLK+Y51sGhIPKMNgcINszJIBUI2dtmHalLaZ7JEMpYQJxDn64R8aQ/LcHpPP7aO65ruRGKjclUCuYzAK3Bc9JWDcUCcFtp6+d2Vj/mbvowAGNMVKvYLh7+AA0hiQZkVFyoOvpl4fdiS0jPyewVF4WwQ6fIiQdx7nFc5b10uj908TigsGr6zXgiWn98PYEfmnmYg5sXfLSMoMKfn5cCirYzjEZkZEPsKcTJjo3Xt0XUfKQpzBknZEg0VVUujMxQwP3dymTleAhPBihb+p0v93AnRnoTX2qzuPPU5k9Gp4XJzQkpbgZvj6I6nfL4BRI388DBdCMOR+e6mupHPJTYWLo9y6aqGP+kaWI8n3tzk1WWDDrrclq2i2P4UkDl7du2xPbOVh1slOREf01CNuAUAaO/FADWZklL2bdH8oQHpPgd7LxK6lj67sl+BMdg7TGYBA1PHbnmSVUb2xcUMfx2gvi+vF/JowYQ+1E7vCHzqj450wWDnkj4zhyvETqgTOimu0iNryJ8l+h0ykiB6ArC4lkx06Hr7oaNxup7imbotF34sfJ6rT6nIyfwKYACT+0N895y2PC3VMJstIvhWlRcl/cZQS9TN+fFA5Cqlx1+RDHiDKQfQxBOTG7dWUsr9lBGfqpR4ZoBH9K102chZc1tZ0FicPjks3CWRSW/+urJsSM/Ver5P9o8Qmd5ro2ERavVIIoKImEZ2e86lJyu46D2d+80aemXlwa9MSwsDP8zqSiDsG+uOUzneVqNYrsE8olO175Jfpd9K7FJ8w+Sc5N5H5lyljRcHrTqm+iOtGObIAQHGI90gA==
+          properties :
+           x : 1
+           y : -1
+           width : 50
+           height : 50
+          type : 8
+          code_elements :
+           type_code : 8
+           p_codes : []
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        code : |1-
+         nLine is int 
+         nLine = mlzAddLine(MySelf)
+         MySelf[nLine].STC_PaymentMode = "Bank card"
+         
+         nLine = mlzAddLine(MySelf)
+         MySelf[nLine].STC_PaymentMode = "Check"
+         
+         nLine = mlzAddLine(MySelf)
+         MySelf[nLine].STC_PaymentMode = "Bank transfer"
+         
+         nLine = mlzAddLine(MySelf)
+         MySelf[nLine].STC_PaymentMode = "Cash"
+         
+         nValue is int = 1
+         
+         //Optimization tip: _A_ MZ_RadioButton..Occurrence 
+         // >> "_A_" instead of "A" is used to specify that MZ_RadioButton..Occurrence will be evaluated once only at the beginning of the browse
+         for n = 1 _to_ MZ_PaymentMode..Count
+         	
+         	//Used to make the checkmark visible on the row that must be selected
+         	//On this row only
+         	if n = nValue then
+         		MZ_PaymentMode[n].IMG_Option2..Visible = True 
+         	else
+         		MZ_PaymentMode[n].IMG_Option2..Visible = False 
+         	end
+         	
+         end
+        type : 14
+      -
+        code : |1-
+         
+         
+         
+         nValue is int = MySelf
+         
+         //Optimization tip: _A_ MZ_RadioButton..Occurrence 
+         // >> "_A_" instead of "A" is used to specify that MZ_RadioButton..Occurrence will be evaluated once only at the beginning of the browse
+         for n = 1 _to_ MZ_PaymentMode..Count
+         
+         	//Used to make the checkmark visible on the row that must be selected
+         	//On this row only
+         	if n = nValue then
+         		MZ_PaymentMode[n].IMG_Option2..Visible = True 
+         	else
+         		MZ_PaymentMode[n].IMG_Option2..Visible = False 
+         	end
+         	
+         end
+        type : 33
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+  -
+    name : STC_TURNOVER7
+    identifier : 0x2006ee9e4cd7f9bd
+    internal_properties : CAAAAAgAAAAPoNDnEjlNtsVf89Yu7R7dCHZ2RcuGIOZOXXZkZppVq+rJ0A6OEurdTsJwFVaRYx1FSus2xy5shCL/7Hk9r6ylObjau7sNrTbSEN5Tujaduh0b20jaUrU/QKSqcF7xw+868plybPDHgMIxsi5HuZWiIvrqojwZgY0y0WVW+B75nOfiF26uUGMxF4RddGOvRaXnhd5fNJhEijvem5c5t8xtMsCQZoibwmFzK44mAT9OS3Kk7Kz0gpThXrpdKVcNQJY6+JKKkGjuSS0uzIb2mMX++SYm4aut55+JNF8cgArO7MA2URyEmTElBkQ0kalXzIONqpjvC3Zrk+4Fzdoym7Ph9WU2Jg1hU6wzDtY1T5F41F5b6DEd4P3LhqaGxIWv7lwcVvNh0LC2Io2l
+    properties :
+     y : 121
+     width : 578
+     height : 34
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_TURNOVER9
+    identifier : 0x2006ee9e4cd8f9bd
+    internal_properties : CAAAAAgAAABg1OmyD2jhhg2XaOL3OdjIvL/3sFDOnqniBkFDG4lmhfYObY8wsKQUSEjrLAGbtxCZEBS76BB6CDVz88juMQvI1292ly62HUUwvxvu/oxxCpIpFOfpZckxAKQ6arVmcRiGkyHdAgHnThbJXxE6pHXzKAM8NJQqwi4Z1uY8dWnVQAqEcxDxVJeXI8LMzH0+1Yht3EwnMa0KtZtLRn+xOD36xr9FxkN723cQQKyEKq6m+X+XkapswbGSMyM55oHSo6SvZrdnOQpiR7SwvKADq2Qm58y3NOkbgjbdrrxeU5coBN+58SUuANccn0WFC5Mqu+2s8yAkQ3fNRd+2l+ZUMxOS1ecV5MPs71TJunzouXhlbZ0zmFKen1EtCXusVJ3ulhFYG9r2Y20AL9wPz8C8qSmwrEfb
+    properties :
+     y : 225
+     width : 578
+     height : 34
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_TURNOVER11
+    identifier : 0x2006ee9e4cd9f9bd
+    internal_properties : CAAAAAgAAABbvLBkT7vywzL1JEEb/wXifiNO9FVYqTwqEjvTUEUFKY75l0NEx2HC4HBBgGkgnzRhNXtu9bxC+678lBJubTCjREhIcSuL2+jrqBbWl2EQtkKtYjBWw7TrlyWJ2/4axSpL1N22xxhjYsQxZmlmNdGFhHxtutFnyU5GlRTFnl7F0R9pM0zopjNAlsAoz3dUzHJ2knskwXsN2diW9ld1QPHJ2oC3uOEG5h+RvYCeMLrGbD/AuZYUykZqzva5wGfGG3WxESuvxVczxWvRjspxxc5leaFNhnf6sQLeAbAiU+f8TZ2+SUN4/XRuYu4JRMHEZRJY5lOM69VdMrNI7bAONdPnubcL5jSH0xlOm2JaHHm5k15fx4FBXUMzjvmpf765ppHBX92nSl9SMyoU/4zVx/hO3w==
+    properties :
+     y : 330
+     width : 578
+     height : 34
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_TURNOVER15
+    identifier : 0x2006ee9e4cdaf9bd
+    internal_properties : CAAAAAgAAAA2ors4G5/SnJVvd+WaE5APpbw6Gp6skLPV22FZea7GNUANn+dpddmfIyUMDo3sY3hgaR8U3fVO6HjYI8ajfNu0YkXT47oIZJMR+TJ5140q4TPL6g2vyks9/bmTOlx4grE56bw0Zqe6JijZDTjd3mAEHLp44O5OOK0Iwy8uhsWUFX3HCcy48CDd6wybCo3befM/WEZKfTI4xxzqEoImjTlg/CqpdM3s10iPiZy7m1/8y3FIARRyJl/L2v75oZojVQxPb9lNm4tcxFPJjtvkwjggORn1Omv0koEK1dzZWBIofuEu2fkuZR9+r4lsQCrx9800ltNPhjPqtkHokfySo17oPWNfVdQRLv9dBGh6iQghba6RVYSPc33DMs/nWem9RxHdc6CkRFKl
+    properties :
+     y : 434
+     width : 578
+     height : 34
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_TURNOVER13
+    identifier : 0x2006ee9e4cdbf9bd
+    internal_properties : CAAAAAgAAAC4vNGKtyApPpV/AGp/sSBAxNcP2MhWNlF6fslQaSt8X8xUpzVCYtqS0p7Remu1RTL3/qZpEm+FEOFjq2AOSad3cpeIX25jSgb8/QdoxpQxFJZ7poEPHSuRFFJ2MMnCyeKCdUOfKFlB4m7Df7fi/MkJuAGi2qY67HqZ2Pau3WmFGsamAbbXZFEHs2TYSuUeudap7o4VT8kABQsYpf7oT3Q1u7xEwbbeMLpfaW/nXZm9lJC0QCV37O6h3qREsRQ9Hi+wb0rW2FmzptsNOw+ysr/5+B0iexAyk/k8KzNlWhab/wgSlMSN5/D3+uqECpHmDwGyHZ/ifUVb30lATezPLw8WgV/5bDsYW4Bh7iTMHai1RbU3UNYaHxn1waNE/EVWLqnws2J+6+V4p0SnV3h04XF4lK+z
+    properties :
+     y : 620
+     width : 578
+     height : 34
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : EDT_DeliveryRmk
+    identifier : 0x2006ee9e4cdcf9bd
+    internal_properties : CAAAAAgAAAAOgXwdsIA6KBKzRnK/SuFJfeV9uZGdiAH8qZivkrHwoa6ffXXLw/fWogsQ5ArZZnyxISYqzZTMlEx1whYsHBjZaz4FToo7iNmq5OZanPxMHC+uTzhp8Qm22qikiahuRRR6YS9Tv7IBcjF/WD17UuqNnSuXUTZ/4uEbL/HoNOQr1kjfBxUmp5lnI3sBe7zTpIrGW5ekYA7tfiy+mAu6XloCVTZ/rVtBmKs13Uy9j7pVeWUOwbNcB5FfZ7FSSkxZTRRI04cNVHIhgNYNOqdo7ohPHCbrmCtZ0ZETRSvqDw4T+/YX3RU+i5b08kcDfZLUkZQ1U0NW4I751vr3YA4yOt3Wj2oZMYiGJq+7F2OS3KAyQm+qaljVZgeTxrdWLFfaDFuKsjMaipvb//jDRNsD6TJavbwfALLbuMhNV6qzHrqEO5+4Ou8Ri52G52/dTEOC8uAAAfygFisYLqZRoaMAKvqP5V/iP0gkc3+o8bQxzrdWpiuqtDFKcNxelRID4nqg/EVc8KE3zOuNvJQ+VVSkV8JRh3cyTgbNRzpmsuVcnvZH7Z5DqRdei9nB/rSM8UzRjjXmHo0L9DAFvNQRg+z6wMEtQD0yQiqF37N23KvT9nGir+qhNafRCNrqBOreUrJKCUte+uot+82QhBpchjteneH9eQr1LY1Npbe1jHXXipgAlqrnD+neIH4HdSLbGajiK1xiJUq6FupC8cZFMJNJec5W1G5+PkOGOSpD0FtK+QgxG8NtAxD18Ittwk7N/XpfGPpkLxtFEh4hNeVYSKsyMOIX81DMjC1tkWDGgrKG7YCgnBSre36M8pr/22YG1PsbeGEcz2SvdCTB+a1LE9/IiTaF1QrOQ0XQ2r5SRMiXBXpwb7DvHg7ck82uRBlqzKsKc4Rwi5Ep1h63vFftiympeKSxILOjme7BRLMgXB7xWDIcQWcCUg60aec1CtQzB9s0qtH7A1Ha0rF48pXgxhoHva5uHNy40Tc6anvGshuK5cAuSSY+jdnwKWQMRnZ3QUaj0ufCo0APW4KFZjVvBIckh9cEvsduWeez1VvvlusX/2ZgU4q7FH2uPG+BivAAVbiEYMedmHL8bRu7AIFZaz8a7kAk8cMomddp0GVLXTJJBfNLY9lRY/W1rMc39F5JarZMvkLp4aCY/Nlv/g==
+    properties :
+     x : 28
+     y : 668
+     width : 541
+     height : 112
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : STC_What_DoYouWantToCreate
+    identifier : 0x2006ee9e4cddf9bd
+    internal_properties : CAAAAAgAAAB1URrmmyQrIRB3jhxs6ij3WwMPSOUWh00+0/o8Rdpwuhyx5wxbSR13+39m5vVHOtaSVw8Q5lRuY82p8zLzUVsLpsJlzR7H8UkZq0Tlka+mehek2lGNYgx5XjPFTseK1Pcyoo1/PTzUjYGarIVfKWKjIu8Y8H4ZgmjdDsa8l3bCD7TxzhiImgASMYOvtmAY7A0eCGj++MFev3xd50TlrWRgtburDE6VnJk7aJi874IYRzEIlJ2g60X2TjZ3vEkDNiIl0TYFXbLDdTrS5hKq77Vk6E2YhqAIcl7UAO0UU6HwuHmxxk4VKnuLZ+h+Ow8adIzlMrvtXcxeEveqG7MY6BCMfHkl4lg5wN5Ac4h8I0raR9h7s2yDlQGNaQv+zlvtkgywQM8YyF8ryuxFUirdk/aHrfyMB59XLCyZcZOogtwYxkjc
+    properties :
+     y : 15
+     width : 578
+     height : 34
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2006ee9e4ce1f9bd
+  internal_properties : CAAAAAgAAAAWdweJHwXfNMKwGXOOuoDQNGZqr2DgO7UeMzmcL9iKVyPPUluaZar9J67PAY+pMJ16xhKew2pQXRzZU3vzGkH4mS2tL0US8Oy9vcBSNCoCP/SQFY/htW1Kjqdmk0xVMIo/2XDMzKDyDDoZ79zX3A6GA3bng+dzTMnivyVhJEIx2xCIcIZBLFwU5w7+AgfKdJyQAjhxnmZbs8n7TSZ37JO09RmHbFVZUd22NAJX+mgLH0RjZAl6iwANI5TH4sJRnh0hWeb3dP6wyZpjJBLJ6ufnYGYQz9mj/4N3sYWdvPdKrZTNB66xE5C5jSSmQszLIJ3uncaSNZh8i9G5sOT++gRc6bwc15HdXaJaqKJf5vhbktc9mHI/ezkpecOI4Xvb5W74CSpv/77Nf+WKPfJNQpz9Xvunwbqmv/iSFHHQrshv/RA=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2006ee9e4cdef9bd
+  internal_properties : CAAAAAgAAAAW1gnpy3noas3oG9zuXMxwkZr3JLeoYBVyeA3OKrGpbG8hUZFR3efjg9zXdvbkP3LOwZ4El+W+yh/BGkQoIMQZoZFhas7dNoK2s3zggks/85ETaI984McgHKWWQaYgHOHVWR2GVBXbwNvaP2ycm4Atn3CujyNLKHh/advQBBA/SjyBGhlS+OVu+5TE1UBpYuTyoMQSz+WQI84se2WdSbgsP+46Rqg+kP3nqD2BlYQgQ/0OVhmkbMPaynkAR9GXiUaW7GJI29Zvzbs1MN1yglvg1H3vemeWKxvW/9SKChIdFRPIVMDPwBAkLg==
+  options :
+   -
+     name : OPT_Validate
+     identifier : 0x2006ee9e4cdff9bd
+     internal_properties : CAAAAAgAAAAk4C/1A72IgXIBk6v7K/gcoAtlUkRR1ONThNGgNZ/36POGS9U1M/lZcUSLANDzrla/IrWH0EToMsIBzMF9soPJixLVa1ehtsnPa87Xj/OuQGNBiNTDfufCVXUyuAFVk4VNbQJBiLOC2Ga8207pqVeysvD2+eRM1M/DB/k6JU0mEy6Vjr8E+DM0LT6hznhii5rYiBrnN6nf/nI3hSSdaaQAYDvC/4U3ouCzuavDe2FswTpuFu/dh5isYp4hWNcT321ejwGLBDxrG1k2VrZK+Xs3YMruckc7/OudvM4YeTV6MebXUyUnc4KYrZnytDInUQ==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          if gnOrderID = -1 then
+          	
+          	HReset(ORDERS)
+          	
+          	
+          	//Defines the type of commercial actions: estimate, order form, invoice..
+          	for n = 1 _to_ MZ_OrderType..Count
+          		//Used to make the checkmark visible on the row that must be selected
+          		//On this row only
+          		if MZ_OrderType[n].IMG_Option..Visible = True then
+          			ORDERS.OrderStatus = n		
+          		end
+          	end
+          	
+          	ORDERS.OrdersDate = DateSys()
+          	
+          end
+          
+          //Defines the payment mode: wire, check, credit card
+          for n = 1 _to_ MZ_PaymentMode..Count
+          	//Used to make the checkmark visible on the row that must be selected
+          	//On this row only
+          	if MZ_PaymentMode[n].IMG_Option2..Visible = True then
+          		ORDERS.PaymentMode = n		
+          	end
+          end
+          
+          ORDERS.CustomerNum = gnCustomerNumInvoicing
+          ORDERS.CustomerNumDelivery = gnCustomerNumDelivery
+          ORDERS.DeliveryRemarks = EDT_DeliveryRmk
+          
+          cyTotalBT, cyTotalVAT are currencies
+          
+          //Modify or add the order in the database
+          if HSave(ORDERS) = True then 
+          	
+          	//If the backup in the database is successful .. 
+          	
+          	// Update the order lines
+          	HExecuteQuery(QRY_DeleteOrderLine,hQueryDefault,ORDERS.OrderNum)
+          	
+          	ORDLINE.OrderNum = ORDERS.OrderNum
+          	ORDLINE.Delivered = False
+          	
+          	for each stLine of garrOrderLine
+          		
+          		HReadSeekFirst(PRODUCT,Reference,stLine.sReference)
+          		if HFound() then
+          			ORDLINE.ProdDesc = PRODUCT.ProdDesc
+          			ORDLINE.Quantity = stLine.nQuantity
+          			ORDLINE.SalesPrice = PRODUCT.PriceBT * ORDLINE.Quantity
+          			ORDLINE.Reference = PRODUCT.Reference
+          			ORDLINE.Discount = 0
+          			ORDLINE.VATRate = PRODUCT.VATRate
+          			HAdd(ORDLINE)
+          			
+          			cyTotalBT  += ORDLINE.SalesPrice
+          			cyTotalVAT += (ORDLINE.SalesPrice*PRODUCT.VATRate)/100
+          			
+          		end
+          	end
+          	
+          	// Update the totals in the ORDERS file
+          	ORDERS.TotalBT = cyTotalBT
+          	ORDERS.TotalVAT = cyTotalVAT
+          	ORDERS.TotalIOT = cyTotalBT + cyTotalVAT
+          	
+          	HModify(ORDERS)
+          	
+          	// Notifies the subscribers about the order modification
+          	Notify(NOTIF_ORDER_MODIF,ORDERS.OrderNum)
+          end
+          
+          Close()
+          
+         type : 32
+   -
+     name : OPT_Delete
+     identifier : 0x2006ee9e4ce0f9bd
+     internal_properties : CAAAAAgAAADyg6t4mCGa6m0NOtnUKnyJ+482BDhw/nBo1b8JAux6ObrzSfBJPi+7j3Hg6DBkAHIXxb3utDOImnp67Kj+dd6xWdoGM7NPDS93VVNCxUlefYxDRHcbmC2GqxoVVg3Lc0vKry5hb5g064viEuIf/KUtx1IER5U7OAd0WYHpmKbF21nFi5Hnb1z3UH4kqkHnBRlQ/o9wnKhb/yJxcoNfifNINKZofQU+5vDOhhx2ZZJBgLiFd8/GVLP3lfZNI9utEK4wqQhSlXt4thhENLrSsD2Sam1UF6j7xR9pk7+sJN72MUgId+jgn+Ny
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          if YesNo(StringBuild("Do you want to delete this %1",ORDERS.OrderType=1 ? "Estimate" else "Order Form"))=Yes then
+          	HReadSeekFirst(ORDERS,OrderNum,gnOrderID)
+          	if HFound() then
+          		HDelete(ORDERS)
+          		Close()
+          	end
+          end
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAD9NyuKCoPB0kUiJp4gRjRey1FrZAPbzZA4ZGr0WMvzvu0+pXStmeFTmpRsjL3+OAXvmi7P51JSgdpPElPPfNvktL49PpbTQGZ86xKUsNTvFNUCbHClHUNWbRChOg==
+ code_elements :
+  internal_properties : CAAAAAgAAACvhiIr8gSQ5loUp83uTso9CuLc4dExenO6nYq0wt6wNhhy8DIKk+8xrI7GMink5ce8SLehbaZBjJVyvy60Arg=
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      procedure WIN_EditOrder(gnOrderID is int = -1)
+      
+      gnCustomerNumInvoicing is UUID = Nil_UUID
+      gnCustomerNumDelivery is UUID = Nil_UUID
+      gbSelInvoicingContact is boolean
+      
+      STOrderLine is Structure
+      	sReference is string
+      	sProdDesc is string
+      	nQuantity is int
+      end
+      
+      garrOrderLine is array of STOrderLine
+   -
+     code : |1-
+      
+      if gnOrderID = -1 then
+      	
+      	// Creation
+      	
+      	nLine is int 
+      	nLine = mlzAddLine(MZ_OrderType)
+      	MZ_OrderType[nLine].STC_CreateWhat = "Estimate"
+      	
+      	
+      	nLine = mlzAddLine(MZ_OrderType)
+      	MZ_OrderType[nLine].STC_CreateWhat = "Order form"
+      	
+      	nValue is int = 1
+      	
+      	//Optimization tip: _A_ MZ_RadioButton..Occurrence 
+      	// >> "_A_" instead of "A" is used to specify that MZ_RadioButton..Occurrence will be evaluated once only at the beginning of the browse
+      	for n = 1 _to_ MZ_OrderType..Count
+      		
+      		//Used to make the checkmark visible on the row that must be selected
+      		//On this row only
+      		if n = nValue then
+      			MZ_OrderType[n].IMG_Option..Visible = True 
+      		else
+      			MZ_OrderType[n].IMG_Option..Visible = False 
+      		end
+      		
+      	end
+      	
+      	OPT_Delete..Visible = False
+      	
+      else
+      	
+      	// Edit
+      	
+      	OPT_Delete..Visible = True
+      	
+      	HReadSeekFirst(ORDERS,OrderNum,gnOrderID)
+      	if HFound(ORDERS) = False then
+      		Close()
+      	end
+      	
+      	STC_CreateWhat = "Type of commercial action" 
+      			
+      	nLineComActionType is int 
+      	nLineComActionType = mlzAddLine(MZ_OrderType)
+      	
+      	
+      	switch ORDERS.OrderStatus
+      		case STATUS_ESTIMATE
+      			MZ_OrderType[nLineComActionType].STC_CreateWhat =  "Estimate"
+      			
+      		case STATUS_ORDER_FORM
+      			MZ_OrderType[nLineComActionType].STC_CreateWhat =  "Order form"
+      			
+      		case STATUS_INVOICE
+      			MZ_OrderType[nLineComActionType].STC_CreateWhat =  "Invoice"
+      			
+      		case STATUS_ORDER_CANCELED
+      			MZ_OrderType[nLineComActionType].STC_CreateWhat = "Order canceled"
+      			
+      	end
+      	
+      	
+      	
+      
+      	//Payment mode
+      	nPaymentValue is int  = ORDERS.PaymentMode
+      	
+      	//Optimization tip: _A_ MZ_RadioButton..Occurrence 
+      	// >> "_A_" instead of "A" is used to specify that MZ_RadioButton..Occurrence will be evaluated once only at the beginning of the browse
+      	for n = 1 _to_ MZ_PaymentMode..Count
+      		
+      		//Used to make the checkmark visible on the row that must be selected
+      		//On this row only
+      		if n = nPaymentValue then
+      			MZ_PaymentMode[n].IMG_Option2..Visible = True 
+      		else
+      			MZ_PaymentMode[n].IMG_Option2..Visible = False 
+      		end
+      		
+      	end
+      	
+      	
+      	// Customer, invoicing and delivery
+      	gnCustomerNumInvoicing = ORDERS.CustomerNum
+      	gnCustomerNumDelivery = ORDERS.CustomerNumDelivery
+      	RefreshCustomerInfo()
+      		
+      	// Initialize the array of order lines
+      	for each ORDLINE where OrderNum = gnOrderID
+      		stLine is STOrderLine
+      		stLine.sReference = ORDLINE.Reference
+      		stLine.sProdDesc = ORDLINE.ProdDesc
+      		stLine.nQuantity = ORDLINE.Quantity
+      		ArrayAdd(garrOrderLine,stLine)
+      	end
+      	RefreshContentLPR()
+      	
+      	EDT_DeliveryRmk = ORDERS.DeliveryRemarks
+      end
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : Notification
+     procedure_id : 1154872716901153213
+     type_code : 14
+     code : |1-
+      // Summary: To be called when an update must be done in the GUI, further to the selection of a customer or product 
+      
+      procedure Notification(nNotif, nNotifParam)
+      
+      switch nNotif
+      	case NOTIF_CUSTOMER_SELECTION
+      		if gbSelInvoicingContact then
+      			gnCustomerNumInvoicing = nNotifParam
+      		else
+      			gnCustomerNumDelivery = nNotifParam
+      		end
+      		RefreshCustomerInfo()
+      		Unsubscription(MyWindow..Name,NOTIF_CUSTOMER_SELECTION,"*")
+      		
+      	case NOTIF_PRODUCT_SELECTION
+      		HReadSeekFirst(PRODUCT,Reference,nNotifParam)
+      		if HFound() then
+      			nProdRank is int = ArraySeek(garrOrderLine,asLinear,"sReference",PRODUCT.Reference)
+      			if nProdRank>0 then
+      				garrOrderLine[nProdRank].nQuantity++
+      			else
+      				stLine is STOrderLine
+      				stLine.nQuantity = 1
+      				stLine.sProdDesc = PRODUCT.ProdDesc
+      				stLine.sReference = PRODUCT.Reference
+      				ArrayAdd(garrOrderLine,stLine)
+      			end
+      			RefreshContentLPR()
+      		end
+      		Unsubscription(MyWindow..Name,NOTIF_PRODUCT_SELECTION,"*")
+      end
+     type : 458752
+   -
+     name : RefreshCustomerInfo
+     procedure_id : 1154872716901218749
+     type_code : 14
+     code : |1-
+      // Summary: Refreshes the customer information in the display of the window
+      procedure RefreshCustomerInfo()
+      
+      MZ_Invoicing.STC_Text = CustomerInfoFormat(gnCustomerNumInvoicing)
+      MZ_Delivery.STC_DeliveryText = CustomerInfoFormat(gnCustomerNumDelivery = Nil_UUID ? gnCustomerNumInvoicing else gnCustomerNumDelivery)
+     type : 458752
+   -
+     name : RefreshContentLPR
+     procedure_id : 1154872716901284285
+     type_code : 14
+     code : |1+
+      // Summary: Refreshes the list of order products in the display of the window
+      procedure RefreshContentLPR()
+      
+      //First, erase all
+      mlzDeleteAll(MZ_Products)
+      
+      //then, add all again 
+      stLine is STOrderLine
+      for each stLine of garrOrderLine
+      	nLine is int = mlzAddLine(MZ_Products)
+      	MZ_Products[nLine].STC_ProdNameLine = stLine.sProdDesc
+      	MZ_Products[nLine].EDT_LineQty = stLine.nQuantity
+      end
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAABz+2EIU5f/SkLf80bgaSjYFuYy24cp8fJhyfSWovfVJtOAc/nZskirIWFiEadzSImJN8VMWoTLE+NRGwwIdfxY2GrELUE7WtYsnkvmTImq79+VvAcB1c8pIcr7w9qqos5T6r5J
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1f05f207006d2425
+  internal_properties : CAAAAAgAAACZEjEk9ePFZOo+39SDkDJRBhrPU5L8MGNkyQkX/peSMADIgmGIamrQQ4iQ
+  strings :
+   -
+     text :
+      en-GB : Do you want to delete this order?
+     index : 0
+   -
+     text :
+      en-GB : Cannot find product
+     index : 1
+   -
+     text :
+      en-GB : <No selected customer>
+     index : 2
+   -
+     text :
+      en-GB : <No selected customer>
+     index : 3
+   -
+     text :
+      en-GB : Order number %1 dated %2
+     index : 4
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

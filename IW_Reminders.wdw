@@ -1,0 +1,330 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_Reminders
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : IW_Reminders
+ identifier : 0x2006eea94f7b2234
+ internal_properties : CAAAAAgAAACWAJ1Zh8F9gaaPNMRdqPN1iykbMmYFrhl3+lP9Kf/HITZwj0OtCoKg2fn1Q5dReipOvu62webHXDjL3P4p7M42Lfx/D0nzeZKNFVb678fAaMVhmft9PWXQJLuEAhi53xnnhLW0e2nEfnxlL6MO8cvl1FyR1U7/DFHXN+irEhJgMgbC058fYY/RJA/xYX53fZe8sSmfPMvdnlRZbRVcOw3NE6Ge+jnHksZhwj+4W4++2siIBzs7s0FhxsmIDOC3x/bgBLNhRYv+IqhTOwtPyX8M/7nEgyZ3etxxmepenaKhH7WtGFkkrVfThPyPL89ghAjXITxE3lhX7n6wSSf4Uy3UD9morTgInR7XuvdUaBB7QeHEqun9B0xIwp+TWZtSduWr8qpgtYpaiVR1bgiWOMO4Ss36lwK9oQM9RKd3sFnTDDR/a4WZ/rPI1TcyPCzkD7/qpSEIhkpN6dTVO47sqMeMUFFmMvssJwbYeoWDf2i3anKTTEQ1UiwNyJdGsPjCW8qmvo8u9DaBgboCFEHHt+L2XxztoFk2A7Y5KC+3UHONTo1FwW2brerMfTRHKidCRch6FSVolzyWDwBclPY2GU3zjEy5SJ18njslSPlCKmma0fu1ejTryyT0OrlFqZu+CsAgk3HmwN22/yacJI6Z8iFs/w9/tFKCVCqf43O8pY5ns1ZP4O2ccddCfU8RxyTIS7NbBGByWW0RMBN+afHPcMSDJfunrozOM9ClfWXRBQ==
+ properties :
+  width : 533
+  height : 716
+ controls :
+  -
+    name : IW_Reminders
+    identifier : 0x2006eea94f7c2234
+    internal_properties : CAAAAAgAAACVLVSOob/usQbqFZc+ervU0mcZNH2JNDo7CwXCuBSlTG5UTHWWKsYAVFjAKWoWXdFvpOG3Fflt7rfE7J7ihIbZGR0TBzhdQGdfQsTL+BJxU1n6fSxWzh6opLAU5El+Y7MI17oourGEadwWGAuG+bS6MrxX7xNSitaHIBkrhR8+tFm51drlVMluHop0N3YKDpNG+Huc+k29vIxVM2x5hoeH5uNFGctHgbtT12oAOfwS/Vez3KgGUxBcydsm1s/2gzLTrANQBrPJXDESSFrZPQg4Scr9Cvmr1G/zzK2vpNdJj1pVB01N+Lw21Cn4AH3jhQHxMsnUADT9oKVQty+0nxcjPtvjlx0XRXiGQakAX8bSXmPxglDqsyvo6PvY7lEPrPiTF3QyU29e9/7DHnX0uqyIEGxdUIE8iAKVcZ8J0x3+HW8RidoPt3eNW27m6DMpwdpkXbhrTHAIypBBxVAHatRqFHr8BmJl6WUrX14wNxbrry2UlA==
+    properties :
+     width : 533
+     height : 716
+    controls :
+     -
+       name : LOOP_PENDING_REMINDER
+       identifier : 0x2006eea94f7d2234
+       internal_properties : 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
+       properties :
+        width : 533
+        height : 716
+       controls :
+        -
+          name : STC_TIME
+          identifier : 0x2006eea94f862234
+          internal_properties : CAAAAAgAAADkuIu3kHG4iYUe4svhd9cMFyjBB7vWPY88RROnOkXQW8/bRVgq+VpvE2+Mq/WDQX3xbhR9UJ91IpM6FveC3PNXuKI1W6xCRy6+ryMI6oq7jDk/hoEQOl5xDyeQunu87piqfZSKuiHYuORpztne124g1b360ijeYvkoFKJXEXaLGJ3Mr74OMd6yMfinq3s/9YZl06Fmgl3c5EM71DsJVY7WQRVd1b1Pguk11j+4vZtGzyj/po2A2tz4cL+007JyAkXzc3Ld2HPNB48kHadry9HACX0vRH/nSYMdhc9l1jcFJdDPpgxhKqgHsGhRnbkVTo000DmXyFNq/e3iFQ0eNWil0bPO3FtyCJTDfo5P3t95jkDpVmq2Qd+mKM/3RPyuSA9t94F9RTZH52JgvTBfLL/nBpsj9uLP9jGwVu8sYXjTwPvHbnLZD0EPZqiD+5N/QIdmye5ONXECpkw=
+          properties :
+           x : 14
+           y : 13
+           width : 103
+           height : 36
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : STC_NAME_FIRSTNAME_INFO
+          identifier : 0x2006eea94f872234
+          internal_properties : CAAAAAgAAACCRSSphM8berquZsnqwUEDuthPk4fFyxzSneqk8RuCM1VkZsicZOW/HVq/t1EJXZSib4WwdNF2uaSPtEdPnqgcGtKGhj/7sRdoeUxzrrBRMBIiSbV2SIJ+E/CYRjOHu82Uwjuo5nRViTVy7iXTiBs/H/3WIyw5KoqGDVSNC0p/gSIq0OYn3Crkdnj3/+O7HQdFPgHtAf/kQSmTT7oV1AgDaerPuK+5b8EPdbepof7I6tjahG9WEUStAkq6shUGHYgo7oVyJASkGj4OcdXV/Nn1mdIxMfzqn7BaUCXqSKYq3V6rcEu6RH3tTDQA7XN2d5CDg6/+jZDW/IPb700FsRihSWvDoVtqiG35PG13j9M5u7ms77TXEvG4c6O/ATEF7ye5YMqKbjdmFs12oPjOqU6UMRA18i3RLG+2BavcCOGCTkt1U5pfYQpgtqZYQFFBwE0j1Lm7nt4ebHUfjXB375nTVY9ZjpqFNu844A==
+          properties :
+           x : 119
+           y : 4
+           width : 274
+           height : 55
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : STC_STATUS
+          identifier : 0x2006eea94f882234
+          internal_properties : CAAAAAgAAAAkoxEQ1Y8h5qXaMI5ISbdRCGDbnKfdHOKx4ZnZcodjPc2plaA1uxMi/nir6ovPAHvheQu3J12oU44nCw4/VE+0J2fV2CtpFKoVoTMKcezpY2LW/55AYFNhRlbXg1vQe+P0jNK61mwE9af5WPpnw/l74IEDGcBpul+CRyOpwO6tToJoTTpR48/LpzX+mlp61L2ANMNzAGxD4YZxuj5b2iuZik429lzvoZRqzvIil8sP3XPiLlQPj7cNgWkj0shIZPLdtRBK5DTV6Qv8ZEq9VsKURiEMcmKGAAOHmzDnFZSMTItauU7rarJIylHQqrUkANB2sEpnz455hTN/2tyINkAHJgzbYOJqacpmQnXOaFjhTkul2qN7Dcv/pi3x0vstij6HvzQ7twvkyd53Hgh1C/aXda5+diWfRDUQ7DTWAiXG8hkt
+          properties :
+           x : 395
+           y : 19
+           width : 90
+           height : 25
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : IMG_Disclosure
+          identifier : 0x2006eea94f892234
+          internal_properties : CAAAAAgAAADH5CG0gZSebRgK7AeitH9w+IQ1Y77oU6KWxM/kZMG4hA+nFASq/VFCrcSpc9aAMqF37aI2FrlK9MeYChLR83mJeygxaT77GLI6ZOZBBY8A3dnP/d/UGBJEu7YM29D5CNS5SGvCzAyvIq1C0LZF5wo0EeR583kg1bY1Say40IKmeSmC3zM7L4/mu5vo2u8aroSL4bsch9aWYuBG9fezTaUH3dblBSWyT0JWrou6eZAhhJT+uDdwSTyOdcgJ8uhSSfKM6V0kfvPr3pcR1NkEgXOVUd1Eb6Q5xvfmlxg4SrL/5CKonbiwNhfA3w1dx194TeO92vwCHr7D6xM10b8DJQQgGuh15Brx+l1pXJmlYpGAuGdm09G6ZVyiAIZqRDvFmZk+1T3/+xNNiwEru087AafMwoGfawiURjQaBZdRhVugrz7yKD1tRgfviURS/ZTGMXO9M6uzF9zJyqhjW6JyCdkhreDEoVKpIGjnfgoWf7/lbG6eLVr863cWDrDlbGizZ5YTSJbdRKMHeYkyaBXzz1gMhDGSVgwTyt2Ag0VQs3xiopAr7s139M7XqHp26rzwsWy4efEIPr4rcpfYP3T7rW0SAWa11dXXYhv6c1E1teevuN3Z70o46Btq15sLRoCWkRWb/gghbduogkSuG0NJzS4h63zV7Uax+duioiyqPdsM/bWmMpNfGD+CHv+2A4ZL+yFEbL83LMeXcQQq79+GK6dvr1EARg6pcqfJ7bcst5WTdxoHKjVpE5AhycAMZUXK0irYw7/cjKuZCs1yy/Iuol7M1Utcw0Q1c92CVbfXq9nG4z9ESaIzCgkdGda3oEIF6uUubbtzpHJP0OZDwzzhX1bqD4vuql7U7ikM7Q8SfZeLWU3nExw46zWeT/Ed9eePprTF+f/bp9jkRaXnHZs672QCAetLOVnNbYLoIix/Lj2ZbHSVtnsSGxpcK0c41QEm2bzHbgamZaUhPqhg8kAEq4XfNp3KvQ==
+          properties :
+           x : 496
+           y : 23
+           width : 16
+           height : 16
+          type : 8
+          code_elements :
+           type_code : 8
+           p_codes :
+            -
+              type : 18
+              enabled : false
+       columns :
+        -
+          name : ATT_ReminderID
+          identifier : 0x2006eea94f7e2234
+          internal_properties : CAAAAAgAAACFCU4AZHLDKmO/ZHcvdXbaBTaNaYvPiInkGk3CwXRw6XTz8m5zJ9wT8rAH/YFl9+tjQePKxUBbg3bJnU417e4gqrIYdyBhUyd+/iV7grF13F4hbnfbZITzEfN4frGqKRyPqmY=
+          type : 3
+          content :
+           identifier : 0x2557a2e60e10a0ed
+           internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+           type : 3
+          code_elements :
+           type_code : 46
+           p_codes : []
+        -
+          name : ATT_ReminderDate
+          identifier : 0x2006eea94f7f2234
+          internal_properties : CAAAAAgAAACYw0BIUpLAmC0L5GN+mzCv37fcyzJdKmEgV83KwYH7tNzsXXEiTGsfG7L488ruUpqLbNwnUbEiM4sUyCi79h0mQJLURADoqNR0gKmkuAzns2H1nKDj88HoK3/U87chDRPOcOXNvmDeaNll4ylr+HZOeu2wJiTthPHlPf0ijuVdL4qI
+          type : 3
+          content :
+           identifier : 0x2557a2e60e12a0ed
+           internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+           type : 3
+          code_elements :
+           type_code : 46
+           p_codes : []
+        -
+          name : ATT_ReminderTime
+          identifier : 0x2006eea94f802234
+          internal_properties : CAAAAAgAAACwpz21pLkdxgPyUkFWX7yBXm0zNjBMAkFVA+pk5fsCrCQudtb/oSikdZJ1cxosqUDQjj+z27icLxFOG/HPtjF32E+Om0xNr7U15d2RmIz2+zwkJgUJdtqbzrLQCANFEnepZ71ocnvfrzYOGZ6AJUIh3thYaZlGIvuX
+          type : 3
+          content :
+           identifier : 0x2557a2e60e14a0ed
+           internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+           type : 3
+          code_elements :
+           type_code : 46
+           p_codes : []
+        -
+          name : ATT_Customer
+          identifier : 0x2006eea94f812234
+          internal_properties : CAAAAAgAAACZEXMf1Fuwa+xSMBWMhXbuZZAf5AbCZmYM6np+MAw1Q3Ht0kke4Pzd6rLppHdL/+lVtjWwZ6SB0n7T8KlcKS8kxyCGr96tCCquB48wDkcIGoV2aT8pArekI848va/UgNDcR/7osCiLQbQ9WAJnKR33+uzCdrkx1ABjfvT4hC9jRN/QzZpWbQ==
+          type : 3
+          content :
+           identifier : 0x2557a2e60e16a0ed
+           internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+           type : 3
+          code_elements :
+           type_code : 46
+           p_codes : []
+        -
+          name : ATT_Status
+          identifier : 0x2006eea94f822234
+          internal_properties : CAAAAAgAAAAssEwL3gTYOZA62a/t8YZXGOF2Lc7dFHu8JuGm5pdGASgHdq1JaJpU6UKDgHXs4S9vwcLk7vxTh0j7F0q160jBvE2jsdspOuBPxWTFuV93DUY0of88Zhm6EHDnfNhUT+d5taYod53WtthGpoqJrHRuu2aSKfQOXrDoRA==
+          type : 3
+          content :
+           identifier : 0x2557a2e60e18a0ed
+           internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+           type : 3
+          code_elements :
+           type_code : 46
+           p_codes : []
+       breaks :
+        -
+          internal_properties : CAAAAAgAAAA7c7g8tQNO3sfFsjKNxDkKczhjZMEAGLRW+LArGbAUmNqDNZX96cBrk2C6Zno8Ea//Ygqoa3P8ck0X1FkukM9pgdK2+lSWh9HdafEMzhfH3wA1tV0oss1/FNE9SuIj3eCdSRKXWtjYy6nzNboDeOhr8NwY+lSMo9F8IeUcHYr9bctlB2LmC6SUeP8jkiZS3BnVdhMmplrJOJjZzgkschadgJNAsnQJ+LNn5iuPGHBrFwgbVPJAova5dUp1M7bygl+z0asATNSpn/ww2/A=
+          top :
+           name : BRK_BreakHeader1
+           identifier : 0x2006eea94f832234
+           internal_properties : CAAAAAgAAABFR9Ovw9750d6IGQQXdilEfCkDBxJPrODKJ25nGbaZoCQBppY7qho7X5MvOT3ja3nxv/dT97LDn7EXcDNyaHCOCoRHauzvDUO6OcYoXMsf8fmYpHvKkhoaxWK7JWCSIhFSBuzSH6UDQaTD/B9qfSu69AV5qNHMUCXeatCLW/OhOCIBCCWsyqM2j/fuDy5pgQ0BnxNBSKgSIc0dXuI5oLB5euTchfOw9vwyJCh5k+u5UsKSnHEYSI5cx5EjUQ+LZE/A
+           controls :
+            -
+              name : STC_ReminderDate
+              identifier : 0x2006eea94f842234
+              internal_properties : CAAAAAgAAAAF5N+Oh+ee2obRQPtKXVjPZnZw/Lsm3CI3k2gflSnWvrF7m+9JTRS2UVy+erNfFhBdsPnjWwbL+V1DgcWabwuUPKivzQalCyPi1Tfu5GR9nez8vqmBWSj8jEr5KyzLiyspZgPpy0NFbAnTCsPNUtF3qGsRGXk1xxmvPtn81m3KHoQMJddstUqPaDMasFWr9LeznXCAksfbypooVduAsUaCl2WC3ZLla7I+1rkFXX+PWwXUqZWcu2g5FBSN+mVONDW3QjzCmm7F/81y6PN2YI+843x+QeveXFwMZ6CnnLEw28B23NTxR89JxaE3Zu/1BAk0oLuOukJv5dk6k7z1C+BhI2b8/z0jPCuG3F7EocIcCeuTMRc8LLkDveykjMMHiOBoWqmFC2DIEn0hYd5RdCX0V7/BkKWpDNXszbjDagDaav8=
+              properties :
+               x : 37
+               y : 6
+               width : 481
+               height : 30
+              type : 3
+              code_elements :
+               type_code : 2
+               p_codes : []
+           code_elements :
+            type_code : 82
+            p_codes : []
+          bottom :
+           name : BRK_BreakFooter1
+           identifier : 0x2006eea94f852234
+           internal_properties : CAAAAAgAAADv3sG7YkFqRO6XVXjgI9FhioZD0YFaTmZ44XL+U12VQj3jhBFvqKVRY1LaQ10t19WdUxrdhy6hi1gvuobYkrq8jqIk17Qd469zkAlWwqwuPeWgko3ihy0+x73A3QAS/ty4mJT0PXzHL9+tHWeiXPGHag09BeYEtcSUSXeHJI4clB5GsFUvOGPUHLzwyM0hHS7+CE/IB0z/FRdOifBbmnteolhNBTWSDSq3hI+ovngEZlH0c8mOMzt8eTgTLLeAJ2Zk/XjRMGs=
+           controls : []
+           code_elements :
+            type_code : 82
+            p_codes :
+             -
+               type : 250
+               enabled : false
+       type : 30
+       code_elements :
+        type_code : 42
+        p_codes :
+         -
+           type : 35
+           enabled : false
+         -
+           type : 22
+           enabled : false
+         -
+           type : 24
+           enabled : false
+         -
+           type : 23
+           enabled : false
+         -
+           type : 25
+           enabled : false
+         -
+           code : |1-
+            // Opens the window for modifying the selected reminder
+            OpenMobileWindow(WIN_ReminderEdit, LOOP_PENDING_REMINDER.ATT_ReminderID)
+           type : 33
+         -
+           type : 230
+           enabled : false
+         -
+           type : 241
+           enabled : false
+         -
+           type : 222
+           enabled : false
+         -
+           type : 223
+           enabled : false
+         -
+           type : 224
+           enabled : false
+     -
+       name : STC_NoReminder
+       identifier : 0x2006eea94f8a2234
+       internal_properties : CAAAAAgAAAAvcIDIdRHR89zwnPCjt4dBQgZpmnZI7+leWMTxDevrsmd31Cj+5Ga8I/95UVb5snj4HRQ18S59n8OupiZkEPQDurUWZw6867Ew+2jWRosa/N6cRs7KpHQmvIyHDnOIdIwxdBA5vRsSdQNIKY2XuTJPgsfbLPeVaO6FxQJysTontngCYaAmVm/uHhr8IjdMAhwmUGJ5nu14AQhKMNotODQbnTBEAvZhHy43Je8Wq7Yg6Y9Fv+G7t76CO3p2UdNwzT0z0iuPuBeOellCYLhUrSN1qVU5hGdKRhn7SVPVauaJYe9f+Sk80zi1NQU2mzFfT4Z0F1zeDnV3r9wA77czAtNzadzOdFuaJsBuaDKv+iU7NqfGrUzYGBsLU3brViSBHUOztTuL9UVF0FcG7qM57K8onG2u9nXM98WYqMU+Tc5oAZemiy3YY4jMuhTT9HUnTNHmAAnRx5OHFpOdYrNkKFY=
+       properties :
+        x : 76
+        width : 381
+        height : 131
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         DisplayReminders()
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         DisplayReminders()
+        type : 234
+      -
+        code : |1-
+         
+        type : 43
+      -
+        code : |1-
+         
+        type : 42
+      -
+        code : |1-
+         
+        type : 2
+      -
+        code : |1-
+         
+        type : 17
+ menu :
+  name : _Menu
+  identifier : 0x20a0f5e80d9e5261
+  internal_properties : CAAAAAgAAADYWWw2Hys+11fLufKQcDIeZZ7CUWU9XgQJ1jJElRUedUei7WiR/8kTEZEwhcaidMfVW05zk1SfLJ006wap/9E5e8+jxJ64SB5DWwNevBYasG6r39gaHa5M7GcN6ntNl8Wt9H91B+Q6H4fT3ixUS0MKDoLv0fKjjRcg3lkiIXFp1dGOo6GZYgp2eMEpdF8AHWScP67tECXQLk7qVO3twxctDmg1oNvF/CBBKF1hHqpdSm0PcxxfC2975rNaRVL6kvypKasNU+CSd5eCa6S6EexQrNPJBaab6MVrdgcckc0n
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : DisplayReminders
+     procedure_id : 1154872764147376692
+     type_code : 14
+     code : |1+
+      // Summary: Displays the plane of reminders
+      procedure DisplayReminders()
+      
+      LooperDeleteAll(LOOP_PENDING_REMINDER)
+      
+      //Display the reminders to perform
+      for each REMINDER on ReminderDate 
+      	
+      	if REMINDER.ContributorID = gnContributorID then
+      		
+      		//With the information about the customer affected by the reminder
+      		sCustomerName is string = "Customer not found"
+      		HReadSeekFirst(CUSTOMER, CustomerNum, REMINDER.CustomerNum)
+      		if HFound() then
+      			sCustomerName = StringBuild("%1 %2 %3", FormatCivilStatus(CUSTOMER.Title), CUSTOMER.CustomerName, CUSTOMER.CustomerFirstName)
+      		end
+      		
+      		
+      		LooperAddLine(LOOP_PENDING_REMINDER,REMINDER.REMINDERID,
+      		DateToString(REMINDER.ReminderDate,"Dddd DD Mmmm YYYY"),
+      		REMINDER.ReminderTime,
+      		sCustomerName + [CR] + REMINDER.ReminderDetails,
+      		REMINDER.bOpened ? "Pending" else "Closed")
+      		
+      	end
+      end
+      
+      
+      //Display "no reminder" if the LPR is empty 
+      STC_NoReminder..Visible = LOOP_PENDING_REMINDER..Empty
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fdba70400e4ced8
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

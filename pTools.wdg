@@ -1,0 +1,210 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pTools
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1006eeb303dc4983
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAABPOo5wfzL5PtlmH9g6pVlcqG1md+uM4GM8B/k/aVja5R6ZseBzxTGWZbo12UeE8bWym5Rl91AKrNq9wTYnFyamg2lAMw==
+  type_code : 31
+  p_codes :
+   -
+     code : |1+
+      
+      constant
+      	// Order status
+      	STATUS_ESTIMATE = 1
+      	STATUS_ORDER_FORM = 2
+      	STATUS_INVOICE = 3
+      	STATUS_ORDER_CANCELED = 4
+      	
+      	// VAT
+      	VAT_RATE = 20
+      	
+      	// Title
+      	TITLE_MISTER     = "M."
+      	TITLE_MADAM       = "Mrs"
+      	
+      end
+     type : 720896
+  procedures :
+   -
+     name : CustomerInfoFormat
+     procedure_id : 1154872807098501507
+     type_code : 15
+     code : |1+
+      // Summary: Formats the customer details
+      procedure CustomerInfoFormat(local nCustomerID, bWithDetails = False)
+      
+      // Variable
+      sCustomerInformation is string
+      
+      // Find in the database the customer whose identifier is passed in parameter
+      HReadSeekFirst(CUSTOMER,CustomerNum,nCustomerID)
+      
+      if HFound(CUSTOMER) then
+      	
+      	sCustomerInformation += [CR] + Upper(CUSTOMER.Company)
+      	
+      	sCustomerInformation += [CR] + FormatCivilStatus(CUSTOMER.Title) + " " + CUSTOMER.CustomerName + " " + CUSTOMER.CustomerFirstName
+      	sCustomerInformation += [CR] + CUSTOMER.Address
+      	sCustomerInformation += [CR] + CUSTOMER.AddressNext
+      	sCustomerInformation += [CR] + CUSTOMER.ZipCode + " " + CUSTOMER.City
+      	sCustomerInformation += [CR] + Upper(CUSTOMER.Country)
+      	
+      	if bWithDetails then
+      		sCustomerInformation += CR + CR
+      		sCustomerInformation += StringBuild(<§@1f06fffc0075a07b0001§>,CUSTOMER.Phone)
+      		sCustomerInformation += [CR] + StringBuild(<§@1f06fffc0075a07b0002§>, CUSTOMER.GSM)
+      		sCustomerInformation += [CR] + StringBuild(<§@1f06fffc0075a07b0003§>, CUSTOMER.Fax)
+      		sCustomerInformation += [CR] + StringBuild(<§@1f06fffc0075a07b0004§>, CUSTOMER.EmailAddress)
+      	end
+      end
+      
+      return sCustomerInformation
+     type : 458752
+   -
+     name : CurrencyFormat
+     procedure_id : 1154872807098567043
+     type_code : 15
+     code : |1+
+      // Summary: Transforms a currency into character string
+      procedure CurrencyFormat(local cyValue is currency, bDecimal is boolean = True)
+      
+      if bDecimal then
+      	return NumToString(cyValue,",2fS")+" €"
+      else
+      	return NumToString(cyValue,"dS")+" €"	
+      end
+      
+      
+      
+     type : 458752
+   -
+     name : FormatCivilStatus
+     procedure_id : 1154872807098632579
+     type_code : 15
+     code : |1+
+      // Summary: Gives the title in clear 
+      procedure FormatCivilStatus(local nTitle is int)
+      
+      
+      switch nTitle
+      	case 1 
+      		return TITLE_MISTER
+      		
+      	case 2
+      		return TITLE_MADAM
+      		
+      	other case 
+      		return ""
+      end
+      
+     type : 458752
+   -
+     name : ValidateConnection
+     procedure_id : 1154872807098698115
+     type_code : 15
+     code : |1+
+      // Summary: Validates (or not) the connection
+      procedure ValidateConnection(local sUser is string, local sPwd is string, bStore is boolean = True)
+      
+      // Check the password
+      HReadSeekFirst(CONTRIBUTOR, EmailAddress, sUser)
+      if not HFound(CONTRIBUTOR) _or_ CONTRIBUTOR.Password <> sPwd then
+      	return False
+      end
+      
+      gnContributorID = CONTRIBUTOR.ContributorID
+      
+      if gnContributorID <> 0 then 
+      	//Number of reminders for the day
+      	QRY_NumberPendingReminders.pIDContributor = gnContributorID
+      	if HExecuteQuery(QRY_NumberPendingReminders) then
+      		gnNbReminders = QRY_NumberPendingReminders.Count
+      	end
+      end
+      
+      
+      // Store the connection parameters
+      if bStore = True then
+      	SaveParameter(CST_AUTOLOGIN,CONTRIBUTOR.EmailAddress)
+      else
+      	SaveParameter(CST_AUTOLOGIN, "")
+      end
+      
+      
+      return True
+      
+     type : 458752
+   -
+     name : RunQueriesDASH
+     procedure_id : 1154872807098763651
+     type_code : 15
+     code : |1-
+      procedure RunQueriesDASH()
+      
+      
+      
+      //Daily turnover
+      QRY_TOOnGivenDay.pDate = DateSys()
+      if HExecuteQuery(QRY_TOOnGivenDay) then
+      	gcyDailyTO = QRY_TOOnGivenDay.the_sum_TotalBT
+      end
+      
+      
+      //Run the "Top 10 products" query
+      QRY_10BestSellers.pStartDate = gdStartDateStats
+      QRY_10BestSellers.pEndDate   = gdEndDateStats
+      HExecuteQuery(QRY_10BestSellers) 
+      HReadFirst(QRY_10BestSellers)
+      
+      
+      //Run the query of daily TO for the period of stats
+      QRY_CalculateDailyTOOnPeriod.dMinDate     = gdStartDateStats
+      QRY_CalculateDailyTOOnPeriod.dMaxDate     = gdEndDateStats
+      HExecuteQuery(QRY_CalculateDailyTOOnPeriod)
+      HReadFirst(QRY_CalculateDailyTOOnPeriod)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1f06fffc0075a07b
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : "Total BT: "
+     index : 0
+   -
+     text :
+      en-GB : "Phone: %1 "
+     index : 1
+   -
+     text :
+      en-GB : "Cell: %1"
+     index : 2
+   -
+     text :
+      en-GB : "Fax: %1"
+     index : 3
+   -
+     text :
+      en-GB : "Email: %1"
+     index : 4
+   -
+     text :
+      en-GB : The specified information is incorrect
+     index : 5
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

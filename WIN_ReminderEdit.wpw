@@ -1,0 +1,446 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_ReminderEdit
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_ReminderEdit
+ identifier : 0x2006eeab50212d6f
+ internal_properties : CAAAAAgAAABi1Mz5KXzmFn3iTtf6cFhn0pGakOm1TOK1BZi5n0fzZJlzwdoX4T92BOir/k7ZQwxiMALYYDB735xlPADnoI338YMPcGe+F+eW7Mecs9fj7kOiUY22qzF2ULorjcKVhx2DOJtBokdP8lwVBfGDhmtQfKhCdjGJA+9Nt2Ag3QJyrx2U1LyKKCgctxIsCn6cnsTc3H66ItJrmJ3UnD6iEl3eTL4OtlC6KAuToKjhKkRJdgbc9n6WgjyQhY5ivNRmlLKmXxbOndPYzjXQOiygPb6y5XUF3qy32yS7TwsO2SDbAqtwo1mI8D8IgfR9DDeeABOLlIW/ipXgeWQiO78VyOzNNTfezEr1x3mVLZ35jZFiwQ5iQQsSaIn8M3TdoaS5eWbSSBC6BlaSooKHQ0UTFu5ho1O5BddJEjZ+tnK4O5p13ZryjuXx4BgaKx2ebGoJMXc2xi0V/CizWnRu4yUMrNKv238P2cqDzbmPkGUpCx2DL5zeeW9QephJWUQiIJFhaf8c27fyGkzPVhVwZMCsh91Tp/7lNAFZF983xbly0a/hkQvBZAvVSywDHe1zu0q6aZIvPYKiUv2eIKIixn6tTjaBxVu7QHZn/fzk2HUffdax2683FQ4pfs7oY7921ly1yq40T6jMCph/ZIJzYYBapAImsLVZOebW+lO5bzBl9Ax6sZpP4tggYCVii6oRcyemeOnNiUQak7hZ42N2XRlcDLGRcfE=
+ properties :
+  width : 593
+  height : 420
+  heightMin : 493
+ controls :
+  -
+    name : MZ_ReminderInfo
+    identifier : 0x2006eeab50262d6f
+    internal_properties : CAAAAAgAAABuGyLZtj8N3gNI0kP4tXiK63cU4Wa+haJ4+qlzJyZnYg8+c2FoLX2SwPhXU+jXb0YJ/oYbGHklVLgDPlwTyKCvmSpIMHvEcu2lgrXRdiuWineccbdUcE+KOFQU2CtNkFG0+5RrCnwc4L8bwVRGarLGPDlrfqbCawC60+U241l8ZsAXimbf/JxbQZSMtSRIV1OeUxGZ4WHOb1IiX5Hb45mo5q+Ytkca+rxMqvb2DoVJSLRkMP44lOh8QBRYqsBppKvZzJx1MED/XHDUWDJo1TSEePFqPR/u7rSD6oJZWXeKXbLl7WPzxjMFRkd8rNOM/NAQjfIyZso7xe3yLsI99z39TwuAE/RuZiHvAQ/mI97FN1xYllOWkqGRnoq0qrT9lPyCaI8ZOUEY5H1oisGKLPewTC1gmas54cFpqrl/Li7TwBUWDUwkO4PS3OORuBqO8hRXgeDjPAStdlD87bI0qD9yT1ZK956boYj2Nu7Hwfl+J0yMopEQnJk7nPRdVjXbQHc96AlnQd9VgeQZYhUAESLr47peKzTdgUoOxSNySiMKHt2QoEs3IjjwMTszmGgdrYXyzFdON2ZlKQoh+qYGkVi4viEpMcQ8xr1CMqiE887QrR7/dGxU8HQnzk/NzLSJVgw5dGMXw0p5vZSykQAN24/3WJqiUixBggC5QenTH42JwTv7A9LMKctFOp8/srrlYuhW0ZgNW8iMenTJp/B7Oijc8y3riDhbj8SjBP5fEZqgJh5sOthDWPrs36p0ZYUPQprvSUbR1aVgimcRcHf3HDbYHDAiEBarzunbg7ALGLcVVpNWDKSkU2nKCHfXhOf789Lo9umjMsFvm7cCdNIV/a9lidfJqtEAQBnq4odaVaUp4JZTKQgHYaCtnBrGyVmHsh4dBHGSZqaEM4SywSOqzX1a4gBQj83/yjOsWvt21sBZr6MXgZqvpUXuS7ClNEWX0WAbmcBVaLlzL7Zh7Q==
+    properties :
+     x : 16
+     y : 16
+     width : 561
+     height : 150
+    rows :
+     -
+       internal_properties : CAAAAAgAAAD6xt8R9V1hgv3QvpIjBpxgqtA9haslE3JPjwJ2PlPwbgfRYZUwugCCUiGyM16oQfan06pGjV13nsR/WjSc4f+lD5oM+XQatTFILbspuUpqeyDPfQIwZJ1142Gy/GX39V9O5S9cB0pqrmDJqccnrz49q62/WWgmYQ==
+       controls :
+        -
+          name : STC_Reminder_associated_with
+          identifier : 0x2006eeab50282d6f
+          internal_properties : CAAAAAgAAAA0B/H9o46nNUH1JYMDD5dXh1kT6HK/OPVrwUT4T1jAFYfBJrwrsbrQhepXh9GnMewAfCZ56ghLfanqj6uzckHJGdRQkqfDfPiZIsrhug/66BHFMsmbcyKwPIjyb6XJhBCJE2B08kWrgeufMHblIY7vriqc50vy3xcO0vfiaOup03FMbHx/gMU/hfXrORdpjgAL8giWNiLCeTOGIL/bKE0WF2t8m5XPVd2nalniq5RkpuWIlLYMGRkjJVbze1iAWWM/2A3gtryz27YRG4wJRnuj4XHvHqlYor1jfPONqSg4dbBhLYKe1YdKFLfgiaO6NSZ2DU7pG7j8KdaYEtkBqM+Vr1eITL/tFC9hnsPUYpuPspLlpUF8IJxqG+2Xd7igCGK68yu7/iAzhv7EByKmcn0+JIwIniRxt2uVT0rvJqDRgDUOB3bMx7G9H7wA2Ehusr93MtzztS9V2N14w4o4iWA5UUmQaIss4qWcjDA7V7Lagd4I64dz
+          properties :
+           x : 14
+           y : 11
+           width : 243
+           height : 29
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : IMG_SelectCustomer
+          identifier : 0x2006eeab502a2d6f
+          internal_properties : CAAAAAgAAACRg6tf1xIuoIJUQxHbGmIZPsqAGH+eLlTyGG5CR0anqD+DybqS18o47arRAxOqY8bKoAHiFH0h/074xI/H6Aqxkl0qnPAWQst6+9JXss+TTsWI/FbkedVrx5/zSAYxURvHwCVsuGFkBabOwgV+B3WNd1rvfJUxZnw4ONqykxEx/LSf6GJ4nX0f0iphx8cAQaXFBxAlDOJ4IkM77JLAP4cwbjEkIWvo02ptJ+tLeVdR4DDICdmxoqlp5VvWkCP3aUSHl5TQVV8M54aZMIA6RHnjpKP7s1GBYd/FLDXn8lcvjDHAZ43FjngIRvojRKhxNLTVEfuCx5X0CCpdqDd2zwMs/dfWUxXaKFuE7IfaKkx3uKImoD+qiDW/WzxHvNNdLoT060wA0+uGs2BleNUxlSAeSFouTxE0Wohi8oos+Murz4Y/rHVOv1RIIPKolHX+UnxRPPvM3dEtA9bSnntF2z8dIUFFD7zAJl7ERxITsDtqvLLA6JmZch8FDbPZ47GaEoiK1NVLPym5HIQ4hJZxPawCZKfvQAicFq/xiz8j/V31I3TlETH753ZQjohZl8jiqLiEx/cNVpfUErdUp+PRaq4nJeFmmhmf14m6jr+S3GbhalNT+U4q6FUHLS+7V6SCLS29bf8CFEn72EosBs0U78afhkT7IBL6/XI4fyghEq7EYz8Y9Z1NyIO886KNlC/OrtCjVOAVuZF0GUVqiYZwZLKPaDT9ajHDUndh704HAvJhFkgj2UrApI99LyHFpUe5iS/U9QfhOyaUqvziPg3RZaM+KtPH/mXpcbehPFfYdVPpa8jUlr3fU5mKt/Ine52UdktFEy5f3rCgcxowlJplr/iEhOUJupj4SW3D53mKBlrvgakaeOxcb+7e7E97BkHYaA6J1ybnjAgK0RpDNDgya3FMJJMe6QuxdgcWusJ/54FZIutfH7LRCJ42cD7X9/NgNI+5vinnYszdEcgPA8J90G7QpGA=
+          properties :
+           x : 532
+           y : 17
+           width : 16
+           height : 16
+          type : 8
+          code_elements :
+           type_code : 8
+           p_codes : []
+        -
+          name : STC_CustomerName
+          identifier : 0x2006eeab50292d6f
+          internal_properties : CAAAAAgAAAAfUiIGQa1jEhaGOk24/Yrr426exZRmvEG09oxeXHcM+dD7yCyLAMLF6kJetV+jiJEFo5SFL9DwBEX0Nt69T/51MW7K4SXLS2zoPRpvjGRTOPCjoUXl19Zbz4Buxg1LqJgaDAtmrPGB2A2IGVpJisHts9fU0y7eAB5GucOGsQ2Ngb9+equNGC6IhVX00OhjQw9oT90D/MuPjxEn+umn7BKa/bLRWflL47fDqJvAiKHl4pBfEEi95rCXehl5BN/OLQcH/vdTzXOR1hu+04sIm1iLx31riNxqlM4Ua1/Y1MGVP3L8VZ4gp0rXQMsVQqipiipbbxcMVOpeEBG2oekbKDjItAy7vVpzmd7izLB/gC/PKwzc4x5Kuh+6AzjgJIWgHl3ZY77Q0glivlxnN8WR2ahRObT6qXHuvkcE/h+/UhcuX55WogAwkCEYKDK9KCvOqciNaQa1amkPlPlxw7M6Vig9gvJ9TF927XyLzWsfHgtA0u/u47I3K0mAk/gfYoI=
+          properties :
+           x : 257
+           y : 11
+           width : 261
+           height : 29
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+     -
+       internal_properties : CAAAAAgAAACgHAVPn5MnwDOW/FjRwCoq8I7DS/WTadhlleI+4otAtmNlZW2UEnjq/gWyozrAKYv5CUpAm1F/jtRtWLUdbm4UlBGLdFf7zuOO5+Un45CoGV5xn+CGGusfybPMus8dz7UkM/0OUQAk6K6H15Hp7Xj76WPloxJ8uw==
+       controls :
+        -
+          name : EDT_Reminder_date
+          identifier : 0x2006eeab502c2d6f
+          internal_properties : CAAAAAgAAACcy9/XhbXHBAShnFoSOhrLjCXnCp3/+jn6Ok6W116AtpvmG8uTwFlLTrbWCoXU5ZttJVUB6QjRZlvhQ/NlatDBqxohj0D2uoSEU8Wfwtt5HM9HATX8nzZNYhi2ye3FWoia+plnZlJLx+tDTQiugMjMAG99lBYf3F13Qjtvphv19HMZC4docSjuSYJLJn156F15tFk6KC6JI2J6+j9/zlWwNalgyrhDqZs48N+H+2K52Uvxkybt5FtK9ggR7WC+sB2K87V7DGsg3XoKIVJeSIom4A6g6r0cKx+7ho0P/2iHqDBtjRvLE9Cem0UvRup6uhuBgN9PguXDLrGoqQzPvG9vCvMA1GXeta860IR6t/hCsEKq8S8oSGLI9ST+L1IAd57TQAyCnnZs3d4LiLNaqWs5VxI7jA/PkNvYXVbvRinlozBdzM9z8TC4vKNeOF7LRyK3a169UDk3yDANGbk+cqupOBzvMDlzz83e4uMkDVBi9PHooWNG2I4RdC9vNZFmkAARyVI7ai+LDKMuIYoh705d9fbS3dneEL8b60/UGVtZ/sRqLH18w1r4z8vFM4l8gfMqB4DH9I1nYAo80szvYZX9eiKDiLvLJaVWJvx01wVFss8K5ZXz6GmCSk2DIgIL+LspYyLz5wtKHmuLY0RvRE6Xm53ibssygxI563AY+SySJb3WQFUWwZnVGZjyah+Otltq74e2qQ9xXbrsMBV+xf8bqCJ6KSssiy9er0BnrtsMtdIAmhhBdgqXqqVqWlCKiC7jC4+zUjF742rPN9YS8lTEyTyFP6L3chsJrNQ0CNpaIAw1qgDmjrU/1KUU8oQ8lJOELJzj6BIbPVmdWKYez4/XLMPSgwLUaBirmosSdrbvXWEuwTTZVSCY4FVxz0t+C7yX+6tdM8+VYvz9O/8ohqU1ECeAOMnSK2B7UIt9JhOr/Qmpv7uZMFVbOBkwWnEHruG1qTZ/D+WvBaaDeIvCUTtfEFvnrn1qBsxpO0bgmE5K/q2k1IoINopuqg9uQ3HxxVBR/TPvghhcjYNu4sWziYRYOYdNGjIwemJKN4UiZZ4KgfvV04SylFbM9prkN1usPo3ILsj3TSSWO7xd1L0H3OP9/6AN4Rfv6gOLu6+6zQSGDAAvuPRHUvNAXdm96GhogizJ/DFJuyXacGVv26bLbqrb7L6ympxDW+TdPyB5S12MIl8wK9tbGzUjwY6rPZSxcUgMxY9ptDPBy/0CcxGOmn8HC5vCsnXJQ8prMO27Ph6t5rEU38JRtePyyq+msJuRsOYgw9sQITHyIuA/PD38QU9c4cOUBDdp40XRYolYTgLH6o9tA0Jsk7wG6dW0UjqngvEP66K96FGrWEiRBKK1DgUeF92OpwoV56ZD/FGorC2A3hkBMHM+v3UXLOSybyLHAnzrXzFL1hFi9+s+dDkEhcWu7dxNacrJYa6k
+          properties :
+           x : 10
+           y : 60
+           width : 510
+           height : 31
+          type : 2
+          code_elements :
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+     -
+       internal_properties : CAAAAAgAAADV4epiujbMfxpPZTG4eYMT+YeMAhyqmu/U8ij+nMMiUklD1SPS0kSyFu8Uy1RAXDT8/Dq2fb1njqT/SizkKdfdx0K0wbwThavBqD4OintBsuFymGHn6e7iDFylUbqCYMTVbKbVmPkb4VfwQGiARqGiDggChj0JTg==
+       controls :
+        -
+          name : EDT_Reminder_time
+          identifier : 0x2006eeab502e2d6f
+          internal_properties : CAAAAAgAAACDjL21upQGLVyzDBPB0mnKQhz++07LPu/fUmc2sY3XzDprzwg5HwvIFT7QvQXVfmKzOJyOwCXpURRre2ZWHvzPwVYjt02DC+EafaGDPdXszFlj4NI++j11WWkLqOi6XxehBMoFpNFgFa3gD12a4wXsfKDj7ZCWLe68SXIPgEIxt7e7Xb0qFdVgWnzPheJCLHpPRLfKXHcThj+sFBfIAQYXPuZAfPt5LzImfvabas+RP8PM+QSLwgv955acZo5lLgq4siNmkP9FAhPHy6htPzZNhTY16Z7Vk9M8syXEE6copiuHjlryPYfXgPS/S6J+ur0ZMG5d7a0KWKsoEmHkZRJPSpiTyWw+CZr8yFv7oP068QsQ/lRf2BwrIF6yeuUKLjDbBxYGfOgR3kF0+OIFW0styXJB1wLBiS10qj22ft6kM7lh7MqroMlG+kkJIBDhzKbVt+NwNIIF3wlcBQ3jxRZXGKSY3pE2STZzUhsOlWFMr+LkaSju1JPjIXl4CCG/kT63RJYrNhRF+RUpq7dvn3aIdXqQXWQCalN9K53+zmzRFVh/IxUrBQmJKHEpjLFvX29K7vm3u8lvDcM75BCshXN7Tlqv+HxO56g762f/hpxP0tzztZJRY7cvXxOon5Dh+ZApyXFTnx9JX80d30jGE8eUDL0L1ILXyKlYawShNnHi7r+mSBnU0WBEH2taC0FKSBbwJSOPV2b1pIUo2f06H7nCN0NBcqNgsY9bD9LEE8SEHaKHtxNZjDXPiUZgFUL4GUHvZwvnEDYS4qYtdenDETaxcjURqe6Qg67IjD2TJ34O3qCV6CKpKeR9egcBU+IlpbQivW3gOeeqvK3LwZxMeqhU4hdPneKcZ1skr1jknJE+kVlkjjyKRC60zmV9Ek+L7VSd/5minX29amhyPhWoa1yuYSJsO4IO5ju0t+6RH2WcSuChpHVBq9yOoWvL61F7zfof/eTkjN1hfyKqq5TP+gfKG6/dS5lBs/Ij+zajUrPdeeRgqig+doSMD6bQJ6klkS91BU7oeh/4lVqg79XQFnWreD0t2pX8sH9zFMwtis/0T4RB0bZUvufw8Hg/IE6uKZTznNYpltnx/aReJCdCO5Bxz+TIHIbSjI0MtvoBlWJZ73AXuelufV65wodw2ve15NaTtU++sVDUFzefsjdLkodWWmfwR2IXMBDnFfG0a1xj9o9XW7xf4T0ihvkaB9xSCp1AOkyLx1etdTAIZzkPIEzZJTor67bjlXZufwevakcCcsVd7kPTF7qlbYm1g2Eja3yObpzvtSpOh/OrJKHwESvzvUdBhJ9A0FlX4Qec2Yp5UPM3Jq8pldLgXW/2CAdL+gjYUIaPREVZ1+ULGkGvtZkAg/2HDYcQqLmj
+          properties :
+           x : 10
+           y : 111
+           width : 510
+           height : 31
+          type : 2
+          code_elements :
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        code : |1+
+         //If we click on the 1st line of the MLZ, it means that we want to select a customer
+         if MZ_ReminderInfo = 1 then
+         	
+         	//Therefore, subscribe to the notifications of customer selection and open the selection window
+         	Subscription(MyWindow..Name,NOTIF_CUSTOMER_SELECTION,"*")
+         	OpenMobileWindow(WIN_ContactSelection)
+         	
+         end
+        type : 33
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+  -
+    name : MZ_NoName1
+    identifier : 0x2006eeab502f2d6f
+    internal_properties : CAAAAAgAAAAF7NYeDiRzPVfKCVrK1lWVhdFc15KhW50qOowaQPBnm3vB5/J4RuhZeqLsoACoJh+V4wTzJKTJtb4ePUfJvwY5CDy4W1ogcTASEG5yTsRfUiOGHyIa98dGgSD7QDXjl4K9Qjf2HOhiEd7v3IYREt3+Ye5dhOr7sDQmEbhQEQYICRyDsV10mx+5RbJFn3d6rgIFbLai3KMRKsvKO7y/GOru9q15TBf+2u3PpR83h0SdToxzLBQnCF0iKkVzthno56duIlLPxGpHUAkNaqC1dQ/Mm2wAteT3x/Mj6d9rAptXgoHqxWhiDHR5BE0CXc/tn2iL4hTnEicvwFD1uhgeci8spxxAlx4WdjvcEu5WgP6kfxwjXIP4IHZyjRFOn49vJ+8+oHgfqLcOwczLCRs0fLJqxgfHHtd6k3dexu1c5DuQKAWl8Dl9mCODz4+IylxXwCkEZMFXjAdn4K0HYhvfuFu/rSosU1wK34cj/TdKWPiOeWcX7cftrSUhx50MgaV5+kp0Szrvvql7MC5adPlByKKAHUKwPIvC1R0MLeJ3M9r6Ytxksqu2wik3tY3DP8ly7eSXx6zSx5YeLRcKlmTtjAspjRv/pydjeU2yJERTxab94Fi/vq8JbGM9iZkKgmXeBN2YOOY+qyZNogWkbufLLJ5+Bw9KYYA/Aj0KKEOO0cNhDDVBti6fHmuiip1utAX1bwrEyzAzDAnW9P5+L+KMjMwTpL3/U7MkrcKGFvP/rXzVL7rLsGYxFsdCCRqR2VTzZxxW7Rf7VSUZuWMz8O1BYINVHgogv3vb/Pya0vqqK+h1Wu9eNrH8v4D+lQP5A+OJaFBJdLMR8wqauAf3nmLijubi2bSCzAZoJ/5Bx2kzf2w4UFTEqN1LoMpQ8zy/ylRKEBMPmDKiuAiEvpAiNmh+AZ+BnVECyhAUL0E5X8zGXJNblR1IpLqobtuJinQA9fsNaStwv/VNwN8=
+    properties :
+     x : 12
+     y : 220
+     width : 565
+     height : 133
+    rows :
+     -
+       internal_properties : CAAAAAgAAABmUnv9RqkhIm2i2CrBfqIECGYdZ4GJ637/lfIw4pls4MdRo32sNJ5MHOUmLbL+gGep3I5GiQVnhqAjCnIm993rzbQ2z6p9Fn2V8D7Olk9plp0y2LnPxb5WMDxFMZawWKJzHPYPAoO/40XguBAUsB1seCwT9cy6/Q==
+       controls :
+        -
+          name : EDT_Notes
+          identifier : 0x2006eeab50312d6f
+          internal_properties : CAAAAAgAAABZO8SRoZDimE0TxS5kzTc8Yv8CraFJdqoxKvg7IRbWKJ1GIXb7WWPPP5/ev/YRm78ulQE5booEHKHUkAppxxuXWF7gStbavcxlQAn60jNiszLsb9ErvJZsEsMipr1No9ABbUk7LBCdpX0zdbHaAmZ0vGylEkduAfsblw1uqDpt3xaXMsaaYpk2BEPrpHijRkh/lKN1hs/wea8mBfQbefxrbzUhKAt/Zi9B26jd3jjFuDAnMaklHlTgeFNggV8rId7ccgjZU7EQDkqtwDwSrnKUr99zIUehWa8yQGSWpOGk7S8339xT/k5XZ9qtKznrb6Umly+wvHON94lDV3T45Cu80vIVyyCsMfprRIXxhzkbvF0PzIVG0UJrRbcEAi3MHNhxUdn5tc8cVvYOKDrd7+1qw8pH2NH/34J3DMTmHidaGV2CxTxDX61Fy0yGV6XEsqxnx75Ho2TmrUGPazFMoq7JPCltSEfV2myLBp/wTEjQnoGaxaZKpbPOK1RP8l1tjsE75Y6QzyWMopxQE667lgsF9wnC8tnjBZP4WI8mYflWw8AYzJ2dYYOjA95Y6sTFePMgzMkS1svpAFHCMrk12HDfuoM4zu1GluFwI0rna7C/Rr/36Af6g1daOSxziqi3sPBa9L6i6JsuHi/bROJf/64i/c5e5L6kuXr+3vClsrGLplLshRYP9e6VhqlpKX43furHHVafBvqQ/eN2QNe1OmY5yPz4ONB/W3Tb0iJKz5Yr7JCGTmCJGuP67jXtO8enXFQh2z6yS94rv99qYTD2xOf4Wnh3jgmQTCgnToEtAD2SSvYz9Eye1itSAmfj+j8pMnSDu33YhF8i/Fp9d+7Pc40+gwIsT4uCpmA4m+o1u69XC9wMkmZo1NyEzlT77JUN9HAfzWspJ9Mnu3m3Qsodpoh112h+1sl+MqW2WIj/WNz8UuEFE/1qn0OSPYej/qgHUt4UJsYbI1YkpEkDrZQ4TUZoXeF/SG5M1z2Qf5UGLgkiM5XPZmQhRQ8MlAPz6cBOhVIIMXWCUM+aHIQ+dRVYLWggubtzKI0f6kweGVC+GrgrRukz8JPB4bOb7gyHICSOHRhRLEiVWZf/RqYwu/WWcd+sirHntT9ossHvZckJNLufwe2AkitHnFItkNGJYuEqh8Z2KoL2I6lfR6NiRmobz9oqbrU2fJDLkeGVL3NI8Mfh/O8/QsGLBIzqfKvcWLkouXpRIIBpVEwEjYO/9Ck4RD97RkGyjWvrSFnEhHhduN8QA9A7XTp4kbdTL8NXMvOPdghMyA==
+          properties :
+           x : 10
+           y : 7
+           width : 545
+           height : 114
+          type : 2
+          code_elements :
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+  -
+    name : STC_Notes
+    identifier : 0x2006eeab50322d6f
+    internal_properties : CAAAAAgAAADgpO/9/jcL4jPVXPPDm2H9mHsW6BWPB3nG3is82eeTLV0EIciBxvl7jdbdIeVMHz+Kpp4PJOd4t3LOhn1h1wW+dGQxuN3HQuOb+dpEse6tU4xFf0IMcucp0gUbJYLlRGZH/DnPCz9ee3a715nzRJNPJUnKHCQWmeJ0y17rztnOEUDVi9Oe+uyvhr9MPNDMsLn5fq5ORS3ibIv6KckwksG2sTv3wJIXXRzGLoeeXURSGQySmSyOiZlIoVHH8Anfr8GabjBvS3dV8+qHart+w4oX4nkDE8ri8guwT6PZHrOGHVCEkpuTEGGLX1QXFQtXQt0Wh1jQ6fdrWlmJOoSBIB9v28NJNOTy5CQhgSHQRUn33mpr1xos9Jh71y8JxE/aEWNW8t4mL/0OAig=
+    properties :
+     y : 182
+     width : 578
+     height : 34
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2006eeab50372d6f
+  internal_properties : CAAAAAgAAAAaC4sds+m7QF485f86NgSsoNLmK+xsv5niN/3ygR6wlaVN2Km8U7yD4dyBXzlvhsuU3Njk5cCqK74frTl9UHcuMz9RwAgS9NBRMaR6uKoGv3Cwtc9V3YEGaqN6U9DVnBor4VDUcACGAEb9k5zL5BI+h8bHI7NroLW+IzEB+LqlK8woOL6dFChom2oimqOy2NxMGjBh8t6Xfy1HWa475H+80zuRVr/Hl6MUluT5dPaFofKdPiNcmRaruc7JdLzXOAcfc4hRbrSOL9glfpSriEnxFrhSCZMZXcFdq4/nJh2sf8r/sXDLaR5PE57oDLb5kk8ET4BUf3ayYcfDir6QTniElYREM/XBHbpOwAo7iiSP8kttSM4b95HpxaOo5UfnESYkGSpjC0pRg/mewXbJxhBx0ncrTS4qO3QeYM28UjT7CRw=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2006eeab50332d6f
+  internal_properties : CAAAAAgAAAAW1gnpy3noas3oG9zuXMxwkZr3JLeoYBVyeA3OKrGpbG8hUZFR3efjg9zXdvbkP3LOwZ4El+W+yh/BGkQoIMQZoZFhas7dNoK2s3zggks/85ETaI984McgHKWWQaYgHOHVWR2GVBXbwNvaP2ycm4Atn3CujyNLKHh/advQBBA/SjyBGhlS+OVu+5TE1UBpYuTyoMQSz+WQI84se2WdSbgsP+46Rqg+kP3nqD2BlYQgQ/0OVhmkbMPaynkAR9GXiUaW7GJI29Zvzbs1MN1yglvg1H3vemeWKxvW/9SKChIdFRPIVMDPwBAkLg==
+  options :
+   -
+     name : OPT_Validate
+     identifier : 0x2006eeab50342d6f
+     internal_properties : CAAAAAgAAAAIacTMQYrVR+AlPwJj60H71ors5n7nJ5HCdUtIBXec+5/e6vGaMno9XRG9RlShzfFh+tSg6MgoLf6/jZlWrrpOMy19bB3Mc+cplQt7iyFzCdDaa7VauL4681ynWpab+ddhvEY/GqoqA3uKmWv9dzW5wIdHkBMzMv8qK7C2IppcffWfN/J9EnPWOq70dgf1U5rPsp0IWs3nrH3p2FaWtjjsgxFfZpadquhGuzoHLrjyQyMEzzqWueISF4pcUPhM5akocYktqF8pS+/jqUlnNEDsp6A/477Jp9YRLfBXK32jUuBxfUdZl9zEqjXoyNm2a/g=
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          //A customer must necessarily be associated with the reminder
+          if gCustomerID = Nil_UUID then
+          	Error("A customer must be associated with the reminder")
+          	return
+          end
+          
+          
+          //If we are currently creating a new reminder, clear the memory items from the reminder data file beforehand 
+          if gnReminderID = -1 then
+          	HReset(REMINDER)
+          end
+          
+          //Then, transfer the data from the screen to the memory items
+          //This applies to the controls that are linked to a file item from the description window of the control
+          ScreenToFile()
+          
+          //And for the other ones, we 
+          REMINDER.CustomerNum = gCustomerID
+          REMINDER.ContributorID = CONTRIBUTOR.ContributorID
+          REMINDER.bOpened = True
+          
+          //Save in the database
+          HSave(REMINDER)
+          
+          //Notify the window that the reminder was modified
+          Notify(NOTIF_REMINDER_MODIF,REMINDER.REMINDERID)
+          
+          Close()
+         type : 32
+   -
+     name : OPT_Close
+     identifier : 0x2006eeab50352d6f
+     internal_properties : CAAAAAgAAACVM5mnQxFxNyY+5X24S6v/0rw0Axqtln5kxRY//GzSQ4w/KvdGOSGFf9fc4kNhX/2/lHjjc/UdJt0htV3auMJc1DSpnOE5Fh6upyIbD0RGtTGmdwEdLMvctuINKcb57VLldJHCXbxRZguAYscSGWVpqh7NqtMYzYg9Cs3vabEyMkVNGdD6k+IEkAGn6VrIFMlA6x2iHQznaiSHOJxbAv12SafbMG2TmItwNgzrUUjb070gy4TYC0bLGrgbZPrMgXTayz4wPaAqBogUwCNzDc9HPZXKGBhJhEZItFNCRL+dBYpam2pwbw==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          //Ask to close the reminder
+          if YesNo(<§$0000§> ) = Yes then
+          	
+          	//Find it in database
+          	HReadSeekFirst(REMINDER,REMINDERID,gnReminderID)
+          	
+          	if HFound() then
+          		//If it is found, modify it in database
+          		REMINDER.bOpened = False
+          		HModify(REMINDER)
+          		//And notify of the modification
+          		Notify(NOTIF_REMINDER_MODIF,gnReminderID)
+          		Close()
+          	end
+          	
+          end
+         type : 32
+   -
+     name : OPT_Delete
+     identifier : 0x2006eeab50362d6f
+     internal_properties : CAAAAAgAAAAfqIAvty3pFpiHq3NRy0/d0XiLWsq90a0pf+3ZUuXp65MktpOIfQNsyz1HIMV2BzabbvkCYuAnz+bcoJWPXcBgj+BOXiGqopqG/htO6RLYeMzUlLyankN5I6lYcx7bSDICe8X4AhEakYfMdFKsmNKQATvt1wpLdD6dhljBIOL/ol+pRRgAdBuFufUwAZ8I/Ny7eoDTR5bldzTFjZ4MROlrVkcMiYxfSUv4AkSJjzhtZH05hIwPIWlddvlN4cxg3JejgzSmv7O8iJXFmdSLXupXQcThBf126i8O7LCJAq7dkgKQitULtP4P
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          //Ask to delete the reminder
+          if YesNo("Do you want to delete this reminder?") = Yes then
+          	
+          	//Find it in database 
+          	HReadSeekFirst(REMINDER,REMINDERID,gnReminderID)
+          	
+          	if HFound() then
+          		//If it is found, delete it from the database
+          		HDelete(REMINDER)
+          		//And notify of this deletion
+          		Notify(NOTIF_REMINDER_MODIF,gnReminderID)
+          		Close()
+          	end
+          	
+          end
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAABcwfWFq/dvlHGYsqMchCq92V/SOe/YYQswM5Y24dlrLNsM9wvY/HHLCKIsi0Oc8oyGRvYOkezUB+sq4BCdRZwICKZUoIvpMqQ/ya4nPjDaIm+kFzJMV9ySTxdRg==
+ code_elements :
+  internal_properties : CAAAAAgAAACagdgp02Ef11b2pXequPulbnXGmYT3YyZ+kiDPUhoaah5+W3KQURzfTJK9tdyO3ETvVjCzLdj0unFwuMWC0p/YKpKY
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procedure WIN_ReminderEdit(gnReminderID is int = -1)
+      
+      gCustomerID is UUID = Nil_UUID
+   -
+     code : |1+
+      //Either we want to create a new reminder, or we want to display an existing one
+      
+      //If the window received a reminder identifier, that's what we want to display
+      if gnReminderID <> -1 then
+      	
+      	//Find it in the database
+      	HReadSeekFirst(REMINDER,REMINDERID,gnReminderID)
+      	//If it is actually found, display it in the window
+      	if HFound() then
+      		
+      		FileToScreen()
+      		
+      		//And display information about the customer affected by this reminder
+      		gCustomerID = REMINDER.CustomerNum
+      		HReadSeekFirst(CUSTOMER,CustomerNum,REMINDER.CustomerNum)
+      		if HFound() then
+      			MZ_ReminderInfo.STC_CustomerName = StringBuild("%1 %2 %3", FormatCivilStatus(CUSTOMER.Title),CUSTOMER.CustomerName,CUSTOMER.CustomerFirstName)
+      		end
+      		
+      	end
+      	
+      else
+      	
+      	//We want to create a new reminder, define some information beforehand
+      	EDT_Reminder_date = Today()
+      	tTime is time
+      	tTime..Minute = 0
+      	tTime..Hour += 2
+      	EDT_Reminder_time = tTime
+      	
+      end
+     type : 34
+   -
+     code : |1-
+      
+     type : 165
+   -
+     code : |1-
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      if gnContributorID <> 0 then 
+      	//Number of reminders for the day
+      	QRY_NumberPendingReminders.pIDContributor = gnContributorID
+      	if HExecuteQuery(QRY_NumberPendingReminders) then
+      		gnNbReminders = QRY_NumberPendingReminders.Count
+      	end
+      end
+      
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     code : |1-
+      
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+  procedures :
+   -
+     name : Notification
+     procedure_id : 1154872772737707375
+     type_code : 14
+     code : |1-
+      // Summary: Indicates to the window that the customer linked to this reminder was modified, therefore the window must be updated
+      procedure Notification( nNotif , nNotifParam )
+      
+      switch nNotif
+      	case NOTIF_CUSTOMER_SELECTION
+      		
+      		//Retrieve the new linked customer and display his information 
+      		gCustomerID = nNotifParam
+      		HReadSeekFirst(CUSTOMER,CustomerNum,gCustomerID)
+      		if HFound() then
+      			
+      			MZ_ReminderInfo.STC_CustomerName = StringBuild("%1 %2 %3",FormatCivilStatus(CUSTOMER.Title),CUSTOMER.CustomerName,CUSTOMER.CustomerFirstName)
+      			Unsubscription(MyWindow..Name,NOTIF_CUSTOMER_SELECTION,"*")
+      		end
+      		
+      	other case		
+      end
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1f549fb20143292b
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : Do you want to close this reminder?
+     index : 0
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

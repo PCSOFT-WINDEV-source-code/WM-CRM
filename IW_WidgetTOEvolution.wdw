@@ -1,0 +1,123 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_WidgetTOEvolution
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : IW_WidgetTOEvolution
+ identifier : 0x2006eeae5078380e
+ internal_properties : CAAAAAgAAACyZx6gJd1lMhFZFNx06tvztQHbTQgAxo5/hi4WeBwRO43NWhsMk9sawckjhWErHrhUZyy8ZB5dGmcJ27FTlI825reTLfJyNb8P2Af2yPV0ArOEpWIhdILuyzb3c7N9k23Gg5juIfqWft9Uh9h85yn7KyAyN6+v4dYzB4JNZmiluPjKrjRh/aAPf5WUKuRajNNbHEVEm+h07utYREeB14L5GpfD7hkLon//BKnSOU3KhdB1jAvEImdSfjO2sZj3EqyhpROcc5/4xEZoqOVfgLDRYpybfvVGuGs9IeIePdGcZ+xa7Yx+YdLPvIZwOZ5cI7Sv38kmQtqiFXIQuxUMFIhc0DJmg4Yut3E1leAldYL9plTMK7W2Tg76g9kgDBtrgbp6lZS3kXSbGYVKCNVJrlx3RfxCT0ecz9JAym3u12XQcfF2moSmYfefLVL3ZUW9rLl/3VUQabBEsya9Mz909YJuz9RtN+yDV+blmN+EcGdjKEBY5RShxAzY8+Fxhi3+InNpT4Rn2pXzCwDt5AvcDCYNyoTyOOyxEJ7j4hsF76b9GHwpTgJlGYM68bWh4xgkgdUj73UcFT/NNZaTzcE1AO09wpBF2mBgmdJWz87xc/B849EFvyktKfLS+ZBkIlvj9p7YI/pgpqp+7Vy1JLl4WYSRkUfK5e60MfUKBxmpTAUt5Z9DzMkg8iF2A/A8B5HeZbMn/dKGQraIwVNFb5Za6rq47kzY3eyL/74rHWdlJTP8NjGBl4fC5IuCpX2uS6ETlaTK/u0jEw==
+ properties :
+  width : 496
+  height : 200
+ controls :
+  -
+    name : IW_WidgetTOEvolution
+    identifier : 0x2006eeae5079380e
+    internal_properties : CAAAAAgAAACFKx1V61YOwfxYGM0tnRfKLaf2BTyS54LfdsVhgH2b2oe+d5Zh8lCMYnflNWKd3R49MDRHCercGU9hpDzw4SygRs3nMUnDpV/LXQTPB5iDkDuzdBLrLgP8FAkdawKQOAIDBwCjJFeggNP3RdcTiagAmsg5U4FElsisdGaznH7XALUmxoB9nBr85YQ31XlOqzP0KJJCTVuxQlN267EpBk6ij9/PZC/lH/mgM2V82fV2h8KtNKf4NzqzjQ9ywjs2X41w6dZVJmmTgV6GjiXYDAtd0fpa3zqDJOEXqFIkLA1ldtK77n1aodz3HLt0+T3uiy+OVJEYlPdTNgV2cP4JD7RL9K16n/mCSk23poGej5VQ7+mYcgdw7rlqxeZh9i0MvqM0DM/DFGzWGBBB/6RO/LdYYY899EoWiiSlOtKaxna/m7U44uOZdapCM27X+wB+KiarZpVGaatY0eCzRS4FIeazZvTHrMGBfLaGIiZg4CeUuSjycHc=
+    properties :
+     width : 496
+     height : 200
+    controls :
+     -
+       name : CHART_TO
+       identifier : 0x2006eeae507a380e
+       internal_properties : CAAAAAgAAABCVFiXg9wu+QBVNrmJGl/QFzOVaeY9kq6fAnAtk0L17XiUl0EVuqlgYa8ZlzAvMvCWBj6RsqeEjStMKbzTF0wG54DGj/dB802a7GMqScKF1DPfpeeHowUGfW7Z0mfZEAZpmCkCjo0MT3o8o+b28EG6HEgM3y8XfzaecJKEgYGFd3EicZ6uMIWcBp0cqt/oMoJ7CZ5AIrqv0GXV0CKjbWOs9fZnHZKydWRKIjVjQaOPfFxdJVc//EwGi0SiQTHrJ34adu2JeyqWTB2PbVh/rr9p3xSX5rqAQMvrnmC8FzLVxrJP5tOaGJ3bfgyCMDG/apeLoxvSsqVuLViOlVNgIpcvx3X5D3rvrtn5z/mID3BeGFoi2p6L5GRUwkBzHSFUHt/HHCPU9ZnCV4TbvA7g+b6F/eb4buX1QsM6FSEPLPWEEGJlcG3y6nUXJBCDFXjGU7WhY4xz4dRNi3/NzEtPC/nO5R780KoBb8ZLP4Vz+bEy0B7Yyr2524LEFGPGNrDe0I2xBDI9Pp6Ayx/MnGEQK/YbuPrVIcdnMvDzl1BrOnzWeS/6AtiZyIs7ny5DLCHthf+mGBDoZ8mDCwdHoOmFPNmjiz84wXJz3cgGD5sdvyxyDT72t2VONcvppFxchHoiYRtkTnv3ZhNxz2jdfv1K2YbjaQJ9Ac2GE1jxBL/w8hb1KDZxokLdWqIx4EDPoEe5kEMlroRz0jnvZQ+0WmWVa5yTYOPKDl3rAZS9ZJ/AwPv94L2GJuWlZ0mkSR23JABl+lzfE3cAjXQsJWpq89e8kZ33ie/bbe8WravpV9jJpUqUPBP89n/oK00tbHdpNkQdnluO+ZoTCGqaznaaglMi5UD3JOp/DWCVd3moryGiuFD5oLaSXAn4Vl5MuxTdRMbkE0nDtLxPxXI5Ow7v2BVzOEiqDquDw2V/edrRL3GHRFCLrMwcwFeYHPovLzVHduAj4OaOu5bSLaxk1KgBExdSUklpyaxTaMlTnboPLrEBDA387j/Bzw5aHGSJ9KqbZWWtjWlHwYm9Hv6V+Wakb7jvLYTepU4ZRY1ZonvuGIdRgqSCaFyBxXfX4tll3webXfzhzFfxrYwMjIhRyrrYGm+SUa96ODJ+ihJpX94qztyO4pESQeTwuLkG/9/gLRcIfeIa095SEyhxguN9/svHkIk/TiXJG8mLZXTwgX0285xSNtgJA/NZWemptaNBoMgks+vRWLpLM6N3gIKUcjw+uEost8zQkhebZzxF3mrzsE0NnEj0KD+orryahSXyhEjC
+       properties :
+        y : 35
+        width : 496
+        height : 166
+       type : 33
+       code_elements :
+        type_code : 72
+        p_codes : []
+     -
+       name : STC_TURNOVER
+       identifier : 0x2006eeae507b380e
+       internal_properties : CAAAAAgAAAAwIQ+SuWB80CsiRcRI5P68gv/+B3c+IEquSZ1239I0xztWuhhwDJejEtC/IgcBpGybTkj5V7KElb4lLouOr4opOCB7BmpLPWHVr5lx+h8A4l45+ZAYtqhorxtyXEd9717yQkjdLB748xUISavG64F14/vx0CavPgrjDZ1joFnXbik8f2wZZ+MrN8LoOWWqMUXJIysyQ3zA0tKfMibddU+lpyhYGdr0iJHDsjxiuJly3pxYNRVQ+iaG09i25tMeU9DsTc0HamwuPW0Z7vAFPDLD99pceDNjZhmvcZmrJkWphAkKi2xE5VBKUd4CZ+Dke13EcxlqR9tV7z4wqSDObRGGM1VOSG1iUhFzjAjJaiHvw4bzbi2SD5hWVyW1q08XWQE7Z7fZfaG1DjDo7h6AMxy6q1hU+KwDb7Ou+VZ+Hx0UCFgvUbO8p1L2tNvvEkLxwUNjzPD+FKBn/52CuKqjBA==
+       properties :
+        width : 496
+        height : 34
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         procedure MyWindow()
+         
+         RefreshTurnover()
+      -
+        code : |1+
+         
+         
+         RefreshTurnover()
+        type : 198
+ menu :
+  name : _Menu
+  identifier : 0x27ed0d2006d0c3a3
+  internal_properties : CAAAAAgAAAB0Z36LRs4f2mayqsNwhGkzHRL4uzICcrC4iWUBq5qfGB9I7tMGVjmknpUXvy62LwrKAO8LRcAkhDEASUaYD9xJWDqg9nl4OppsljMn+Xj4taphWIITCop6jxgYqldtVxbV04zc7uovGXpSTx3A+5yidXlCeY2gNPMXkG42oIZ9kPLIqoxP16d23N8eKAsrlhNOGHBp2oVoBmwd7RGgZmzrM1ZcXtNsa/ImPdmbit0djHrzCLcuGTSE0M+QxALSnj7cxVQ65AZxIUyCTvPrG8DiG0SwpF5fLFiD5kQl/r7kdwTMzAT4yClSxoJUn4HQX+w=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : RefreshTurnover
+     procedure_id : 1154872785622874126
+     type_code : 14
+     code : |1-
+      // Summary: Refreshes the turnover
+      procedure RefreshTurnover()
+      
+      //Delete the previous data from the chart
+      grDeleteSeries(CHART_TO,1,grData)
+      
+      grSeriesColor(CHART_TO,1,RGB(163,0,72))
+      
+      <compile if TypeConfiguration=iOS>
+      	grTooltip(CHART_TO,grTooltipFormat, "[%CATEGORY%]" + CR + "[%VALUE%]" + " K€" ) 
+      <end>
+      
+      //Then browse the query to add the data into the chart
+      nSubscript is int
+      for each QRY_CalculateDailyTOOnPeriod 
+      	
+      	nSubscript ++
+      	
+      	grCategoryLabel(CHART_TO,nSubscript,DateToString(QRY_CalculateDailyTOOnPeriod.OrdersDate, "DD MMM"))
+      	
+      	//Divided by 1000 because TO expressed in K€
+      	grAddData(CHART_TO, 1, nSubscript , Round(QRY_CalculateDailyTOOnPeriod.the_sum_TotalBT / 1000))
+      	
+      	
+      end
+      
+      grDraw(CHART_TO)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fdba707012adc75
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

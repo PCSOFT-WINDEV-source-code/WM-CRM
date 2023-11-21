@@ -1,0 +1,342 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Manage
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Manage
+ identifier : 0x2006eea34e0a0b60
+ internal_properties : CAAAAAgAAACsJEjdNqq1x92Wgvc/23C/sNejGwMyCziosYh3y14CDzwQJo5/8P+OvfrT5jLkMyXi1dQYW1li1beRGgSZ4X2/8aTAv36dmdSr2b/qdccrD2mmFCJyZvbR6nJhkBsJw0ivSign5Wvs0hcPWM+uRsp5BY5PiSug8LtS+4exBa3UcIpKRAMD7+4mUN5l40mw8/BRcFxYKGYfhws9V3KpQ1PMGFhc32ojjXJvNOrHj9QgWVusYgvW7qu1aQclluYPBv6YPIuGx17PaoN01LdeONPRhIC7tcbeCnKkJkmLCXSr3nf8jhwvjMrFGAedGrPM4KVe1xxQibR0jRH0//rPjpjd8XsZGysQGOOYkhrcvZJRnBrAsjivzULGVsKviBWL7wUniyRE59sDY8H3/kLJW3xaXKmshUJTsdeaiWDgUaIcXVlWEsdC27E1tnSZgOHMv12N+sm+TZLt+0Ji6/yz/g+nSUTitwgvBcWw/0mArTq6tYMcmtVsTQGuNiZThgljFvk/kLShQPbaUTQfoPrK2TGmNn1lPD26RDmmvi8mpUuNmJqIl7c3xo7VnGXPI1gBHtSdi0qnWInMvODfN3oEsVw4ESPJdRsS7KO7gcAHU+nz/8OYlECkNz2TRIcTpf6oNtll+AnJuNs8prNLezKjVrOMnXHtSplxObwT+7ljCwm6WbFEUSqaTAvRwKfhgtO0gPx2vcu7Mw+r9yRx4S+xUFAXbB+ZU42FUnOjmwt/7jVrXn9SjW3yo/wLnQOJxHdzoBfufH51bmBEWSfMd3bcwEGTpBAWyCQFha5xh20Tu3+PvHadrQ==
+ properties :
+  width : 593
+  height : 364
+  heightMin : 487
+ controls :
+  -
+    name : ABZ_View
+    identifier : 0x2006eea34e110b60
+    internal_properties : CAAAAAgAAACf33g1NSexpACvG7N1JtwgHAgxiQC+rv43vHqkFmBHHxsg4sjiKERknLrSzk/cPMUJazDREW4+QBosdASsFOaSlU9+VX8c2X/yEDfpl4coqtvYOC2tB1s1k3gB3MLkitCBnAIJC3kWkMkbWsZzx1L78MX1iYXbSBUNy8HI/PxM/6p/EWWgDD8GHmS9vNSgw5Wc7U9FSLP87iguxP/uTClrKS2dWX1HtAp/PNwtwyKshRLE8k16ac8tmfX0W64Egxw0vM++xCIvK+PMXXsf/91dQOQud9KE9QQKVnVqGO/xwT68MmLsI8YanawQjkQA/uMp5YslHZ4XJGOm4TCRbReZn66mxIKonMbs4uD2I1kqjg38lfwX/NVDFJZwV4LLQb8r2NnzM6VLf2SV6KaU/yvq7HBiQXkJTvuOcQw63A9F/xGeIOHJv8ea8RyP3ZqjvE3Xr1rLAB5xAodL8MpRqQvpPRJa20HIHO6gH+zVlVKHi3VrPGwnXFmG86P9/B6iMFuJ3OO+x7tmM/QqeetFBVsmYHOAhV5IK2yZfa+EwkKkQ88cT3fK0rzDaKS/sdq5CQEt+mfop5kW3bD4aZui828wSAuDy/fDBA==
+    properties :
+     width : 593
+     height : 364
+    controls : []
+    type : 95
+    code_elements :
+     type_code : 127
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2006eea34e180b60
+  internal_properties : CAAAAAgAAAAk50nvEgBliOTqZ5peOP0v+XXTG1B1uJWe3zaof6uXfXsaXjauu0/N/T4ql8l+Ir2g9+j6zLIsXCnlvSjX/6nIIXL9JjHLzapE+Hkq3wNWLPSVmu8Zv/PYn45HOHQ0E47JtUMebP5M0Ja49uSU6ofFTEpXBnrHznfFujfZoLz8Jfpx7zPxj4qsVJ6BcEFP/JSWhWJ1Srd1v6WaarD6rbNftvRWN3YsrzEkB7mf0/5csoL7k2M5b7GP6LGKHz13m7234N+y3POcTWgm9T2Cx58QoqqrlA1SuUmpa7gCbftgkzxlGTMkMYbRwt6Biz+HR7pTPtajjxDLHF2dLv8V/hvYPYDQ/c6P0QBC7Jb8vrjucQsvKqWXA5ExUqoTcp/z+I6HgJ6re15jt9EFEN5R6Ea7JpI0D7x0DR9m9ycsJ7dISVWNVlyq6WN6U6i5lsWPf6ew19q2I8XueUuIJfPlfAFWpQnP0V73Eeq0cvQppCo2pJq1MbGQN/lgGi/Hn2bc3DPE36oy9m7XqceQ7ae5Qa4dK9KaFo5EM+/73JzOuRL5tEttDtljd2WmpVARIj76wLmReFZeJJg3igKx0eodFfxCPsU3F7n/H57hcvnLpqv9H/blUIv6KfH5sJ4a/obuC5d6Tc/Mqqp+HghJ+IGEQ2d7rMLrrcvZ+H56zQjORDyktkRK/zEgLnAz5WJcJ7IaxvNVWcbHQMUnKg==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      code : |1-
+       
+      type : 18
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+    -
+      code : |1-
+       
+       DisplayView()
+       
+       switch ACTB_ActionBar
+       	case 1 // DASH
+       		IW_DASH.DisplayContentDASH()
+       		
+       	case 2 // Customers
+       		IW_Customers.RefreshLPR()
+       		
+       	case 3 // Reminder
+       		IW_Reminders.DisplayReminders()
+       		
+       	case 4 // Orders
+       		IW_Orders.FillLOOP()
+       		
+       end
+      type : 17
+ menu :
+  name : _Menu
+  identifier : 0x2006eea34e120b60
+  internal_properties : CAAAAAgAAABM0BfnmCKOS8s5ewDumBSkqSoTUHe8YBUCJN1iGhWBCHeBlc3Rmd+DqxBvcqZg7y6GITJgp2muUk/detAQxLS14cFVtt7pjlLOFxS84q+fl9FTLJvkXAdwrDE2hT7EhJWdkUEafAlLEHum7xDsX0DpV5Bak6nVtpJJp5kWeioBgP4PaO9oYmuA/XKSC/57LFKshjpYdbeGFcjqOVvT0/LqeXxwFM5YfrepFqsfay4KgVdMHFdqpkGkfI+W7f+5G7wYKvimefBNN9UTDjNI3A0W5nvtcJ0gwa2gNZrQGLRvCOL8QFshtgoe1A==
+  options :
+   -
+     name : OPT_Refresh
+     identifier : 0x2006eea34e130b60
+     internal_properties : CAAAAAgAAACT67QSZ2r5nDiska2Wx5xDtvx0K+Hw2luiGZtgwc89d1/0OMfVVTjyrtCJNHMtk7dtVsz8LZR59CoVhoJLiaEkXzYHob7vHwaR+dKOLP7gIlp0abv1UnWyXHVt5TzsiwjRSYEhr3yu1EXcnJUgitoM/Eq7RxfezrVqcNP4Q0VsX/aTPNlS5exUX1g/7M97qDKt4Kb8UTqzWROtkG03Gw3T+NhVYHhMVmuOwdKsDjslKLPM/i8qfCSHc48ybYTSjYur4LJnvRQhRuOoTcPmYYAP5racmzhUjj69FCi0qaVn4n6imtrMj5Ohqw==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          
+          gdStartDateStats = IW_DASH.EDT_START_DATE_DASHBOARD
+          gdEndDateStats = IW_DASH.EDT_END_DATE_DASHBOARD
+          
+          
+          RunQueriesDASH()
+          
+          
+          //Fill the dashboard data
+          IW_DASH.DisplayContentDASH()
+         type : 32
+   -
+     name : OPT_New_contact
+     identifier : 0x2006eea34e140b60
+     internal_properties : CAAAAAgAAACqe691FjUigAyCMfIeHoK0Q93QXlpLvN5lN5foEEGpXwSY0Ua2SHKARGlbmqfVJiIOc5BATAueqIWBOzxHYDgFLYvo7v2MDpTN1PAXUwaLRrxoKr+o45WptZ6QhaB+T4Fl+s6LsMpNDoJI0O87SXmR7jVSvSEnCQ4aEnHlGJpiVGNqZ8nGkEiccf9x8X24w0SaBzIdIqEyzI66bw265dH4ZoNmsPxWIQm34skbEBaT/j2Tr/Q0weu71mHSneYnr75Bzaxo8/fnnjXuTkN8MO6f6gKqDKZHHNgQ0yLp/BcMJ4QWNFEl9wL7suTaw9wI1i+e0rU7ivUw
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          OpenMobileWindow(WIN_EditContact)
+         type : 32
+   -
+     name : OPT_New_reminder
+     identifier : 0x2006eea34e150b60
+     internal_properties : CAAAAAgAAAAgQnX0XNeiWJ8q7AN0aZD/Pn4ajjft5lYgynPAFKkNjbOZDqk5yLepN8GGLCYLyowryOF79xjYLmoT6wjNcVa1jUn/xopcOx7akE/fxdSsaAaF082A5hekiEpciW3KFw6XDRMvnvtd1kKR0Zuz0yLLTfyppjx8cszDTgIvSlD3iuzAFAnlbxF510bTv5V03UZzSnxboWkGVCri0z7siKA34d7JhlvyxLzv6CmspRYM47cz2hAbMC7kjiDiq13DdNgSBcXWlF5mGS9J6fxTxvxMWbs+pXAsviLNLRU25ro065emalLPbEszIksh8xIxIwsniKCR84YjJg==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          OpenMobileWindow(WIN_ReminderEdit)
+         type : 32
+   -
+     name : OPT_New_order
+     identifier : 0x2006eea34e160b60
+     internal_properties : CAAAAAgAAACltnSdIZabQCPslNuqY0nYWXgKWGEEyFC0v/y1QnBg4D44huER1qXzAMHmfX2OB7Lgf1guhVbC7ks/0Gz2r/aMD0ycOUseU/PHixWqpSoUA5jFytZoupCz/Vr5s1jeiuTpTOtMGu0jtVrm09RC1UvU5UYk07KJ8kw922nTKHxqjNlH3m5yLkrozdf0gXujX14ddLYM4GR1IF8m2iNvq1HlvdrTVU0L5sFltPbM477NMTEtXykMzP9oY2daD9MRB8gqKxzwusJqqptpm7zplOZdrPuF+FkMADgSsrHZ9vvsikil7GN63N8meJu4XOAfD6lVW+if
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          OpenMobileWindow(WIN_EditOrder)
+         type : 32
+   -
+     name : OPT_Disconnection
+     identifier : 0x2006eea34e170b60
+     internal_properties : CAAAAAgAAABV4sEBwx5BbrekY41eeJcxcvxBfPXbwbcNma5xfMljhAstehmrBRJxylw2qCM8PoL0ZEajw79o/0IxwTbTk29dMqmdxao6aUmiEPZb5maFqUCg0LDj1uiu2K1wSITrdEDH3FxVUokNzUMxuaImZVwwgYEy6J1C35wEWdZY0b7o/EfUDKZ7FGaWAyDtlpwuKKxOJA705TJnL5COcSmHHEePiNRjmxmDyXuh/N2n+NobnzIPzk95OfeD0spihHbXy67b3W30DW32KKmxxkaXpWjKyFh9ErOo785QZtOB5mXlZQNXQTDKM9EYuDPYV3rsC6cGOXXpR7W1TMMsxA==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          
+          SaveParameter(CST_AUTOLOGIN, "")
+          Close()
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADPKdm8ON2zZA9ogOiS6KYIFYNZlnE17zqSskTXCnUIJu3GvdwFwSkz2oSsXLVmVGlTPhLzO07mJSYTXg+jbRLFlpgH5Py1LlRuHcTa/mZdhqdcNibzz/GEXwKTCA==
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procedure WIN_Manage()
+      
+   -
+     code : |1-
+      DisplayView()
+      SIPVisible(False)
+     type : 34
+   -
+     code : |1-
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      DisplayView()
+      
+      switch ACTB_ActionBar
+      	case 1 // DASH
+      		IW_DASH.DisplayContentDASH()
+      		
+      	case 2 // Customers
+      		IW_Customers.RefreshLPR()
+      		
+      	case 3 // Reminder
+      		IW_Reminders.DisplayReminders()
+      		
+      	case 4 // Orders
+      		IW_Orders.FillLOOP()
+      		
+      end
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : DisplayView
+     procedure_id : 1154872738376780640
+     type_code : 14
+     code : |1-
+      procedure DisplayView()
+      
+      OPT_Refresh..Visible = False
+      OPT_New_contact..Visible = False
+      OPT_New_order..Visible = False
+      OPT_New_reminder..Visible = False
+      
+      switch ACTB_ActionBar
+      	case 1 // DASH
+      		MyWindow..Title = "Dashboard"
+      		OPT_Refresh..Visible = True
+      		
+      	case 2 // Customers
+      		MyWindow..Title = "Customers"
+      		OPT_New_contact..Visible = True
+      		
+      	case 3 // Reminder
+      		MyWindow..Title = "Reminder"
+      		OPT_New_reminder..Visible = True
+      		
+      	case 4 // Orders
+      		MyWindow..Title = "Orders"
+      		OPT_New_order..Visible = True
+      end
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1f05b91401ef6668
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : MM/DD/YYYY
+     index : 0
+   -
+     text :
+      en-GB : "Tel: "
+     index : 1
+   -
+     text :
+      en-GB : "Cell: "
+     index : 2
+   -
+     text :
+      en-GB : "Fax: "
+     index : 3
+   -
+     text :
+      en-GB : Orders from %1 to %2
+     index : 4
+   -
+     text :
+      en-GB : "It is "
+     index : 5
+   -
+     text :
+      en-GB : City
+     index : 6
+   -
+     text :
+      en-GB : Type
+     index : 7
+   -
+     text :
+      en-GB : InputDate
+     index : 8
+   -
+     text :
+      en-GB : Company
+     index : 9
+   -
+     text :
+      en-GB : CustomerName
+     index : 10
+   -
+     text :
+      en-GB : Plane not supported
+     index : 11
+   -
+     text :
+      en-GB : Do you want to delete this order?
+     index : 12
+   -
+     text :
+      en-GB : DD/MM/YY
+     index : 13
+   -
+     text :
+      en-GB : Dashboard (%1 to %2)
+     index : 14
+   -
+     text :
+      en-GB : Order number %1 dated %2
+     index : 15
+   -
+     text :
+      en-GB : Customer form %1
+     index : 16
+   -
+     text :
+      en-GB : Order not found
+     index : 17
+   -
+     text :
+      en-GB : Feature not available in the Android application
+     index : 18
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

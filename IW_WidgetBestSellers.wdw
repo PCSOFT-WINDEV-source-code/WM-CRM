@@ -1,0 +1,116 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_WidgetBestSellers
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : IW_WidgetBestSellers
+ identifier : 0x2006eeb150ac4230
+ internal_properties : CAAAAAgAAAAtYaLZXLxZsbKz+qEzchBnw6BWg9miIhHZUgxAx6uratBv9+nV2uqtApoP4XWqsZPMQHuJaQXFa6nZJN0bK34WVmMifs8IqjXlSz7+R0yw1hGaGVcRKNom0NGhoezp0bDkynrKOlPwAHbfy0+tlXa8UHIsoomgbAXaiaHwq0ZqSdjSD17h3+iFe5n8ZULfVq/KKyj2rA02OBGTkOivWyJso0QDp9XFys0Xun28D3inJee9W7o/2ujZuZbLMHQM9fpH9xRn/P0RqgG1zBP/8a8VYKgWX5lS/dpNHF/Yg/LaugVFWcFAvqycxSBwDpDOI7hx7CwOje0wBmFgQEH52hDkSCWMb4PtIocbwztuLrUicA2LnScHrgWt/faMYIbEeHshYN8mvwN/zz3kKq36QvaIud3zNUxjVHCJ6fZF103I29BA4jlsAXN1K13kcj4wC+AZTHAVrbl/zkwsOVQAJVw7rA6jCPjsu9t9bjbqk18b5qmjQHm+fVthbLIDyJ0+8AnOO9CFBwYIlIt7SMfsodGC3wIVDG28qxjhx7349UvkvQT/LlF0HpuBUc9ryNU96ce9r+oBn38SNaP0JgGerRP+Z8KXCRkVj51hQ5HabaSUYsoYpS/A8X8a6Skry0VuqBRJQc4DwQyVszflo5hUvlOIT6L91KvcedGMHxq56R+wcNTVUlzsyZ//8BsVwaLWw0XW2rFuSA2/U+1Fiv9exAFppj56nCPOjgXG/OmUQ4FGFF5YpjmJIKq/7zXgjv/iSntGmucqoesJbwU=
+ properties :
+  width : 496
+  height : 200
+ controls :
+  -
+    name : IW_WidgetBestSellers
+    identifier : 0x2006eeb150ad4230
+    internal_properties : CAAAAAgAAAAkYLKmxp5A/aCjTBA2oFd/tIG6HrRKYIJ9HNyCi8KEWgh6ek+3kBFekvtkDfbiQFmM9VYrWuyddpN09j0/yoWoUL/+9ZVI2eQRBlL5Qw5zEKo2RupkwWrn6XplxRuiKu/B4Tx6iwMxBKzC5PTCLIGcSZU/CTKq9TcstHYcSdmHXC/BpslCOl/i5tXCPOTN8nNvuCU4YdqLTm/OmiqPAWnUebIKNE3hjMFqBTq2km3wpJ1JbDh3tM1mB02M5TJ0eTaR0eSX3NgMR/FkCIc9Jyc5NU6asMyee0p4cr5AJSrdu5JzSr0+6lv7VM5MZarVDlnSmp0X01OVpMMJqFNdxMvLfGHmrxkjkinre+YzI7KKaC5vsyMsIehC+D2nt9e8Tvyja8lli87wKz75Bwz6p5z9cwNeUttALBSm4l3mZmFmY8ZCr29+bAtQQ6Hks5/zE2M7NEEeSbiOudjfIv9tH18L5ZtCf2/4lF0vNUKiJCFL
+    properties :
+     width : 496
+     height : 200
+    controls :
+     -
+       name : CHART_BestProduct
+       identifier : 0x2006eeb150ae4230
+       internal_properties : CAAAAAgAAACIX/uI2YJp+4Ed8t7TGSEk7RYWS7cSdESsC06/5TINnOHBKAdNsADwIbNI4tOVVLU1JtI+846oI16xIVvgkb9S2hxrD6J2FJcjF6ci2eBquLAori8uC4nBrKJXPA49LghFzHmd7wbISApxD+R4kOmvRngugpNtIzHNkg7s9gFzia+2rUE/I0ZoRQ4j4OYJ+SYD+MmJBinYBG81p5kPshhwc1LHsGuOhWrOgSATETl5G42E0cZAQUQ66uoZWVrRq4ODEgpLU4AvJWErLssIvUcuwiUGUfhKJ6yNFIJzTreozm4gPLQ5hs0IPXiJAjf60W37DW+bQB6hpv8PosKt138oKs86Z8ZkR0AdK45zaF66fGy9kF6mFmPSOf0Mbz3tCd2WK006P+s80HGfrQauHzrvYv6/m/cgepZeHIVhmAbBVETpcltWYSVKz2EcU/8fTRx/iyft2ecOwY2z9pcReuTqdPC7RDuMYFB5obJLGr6TBTp5BMLhY/uYu+hhFU8Q85rp7axR61OdRAqxpMyUriOUg+kg5O/KBZwzYIX07n+QQMrRbK4MgU20dA2bgl8544qPgO8mNObU69AIctWhU084bkvgZRxoUn1D/jmxFp7nLKaQLqCIJb5ylE5IEtw+EIfc6oluYcH9qFHThaJ7rYn8xQ8zkxG/qkUpjug6GMPFjky7v33ftnA6NYyKsN5gtLeCETDXFI/jGF6G7jltJlCVyNwH40VQ5+XceHiVO5bu2Bc0HEyGDyYy2D3SxHOOqgT3Ews4Q6xZGni4cr05C6fmzfqg9rKtMjRU0eMlQ/pfnt4HoUoHvkUojuoHPGlunapkbBZrVkhJCg6Ml3mPmCofsbXLqP8QY433LSwjsbPSCYrunEYonwXj8+EtfDmRPMZz6Xs66kW8W2nAn04mEqkxIzWMDME0W7dgUzJccTdLtqwOnJF6FGQesCt4S1CI0fkooSgZIkWR0Ac9dL3yWGHkTtFm5RjMQxoRPZxA29diMOJVlj+w3q9qCp6/oBr6k5o3ku9jzg5RBgKpwrf8gGvNDOfqlx8pMEYRX3NSr+6kXtf+Ox2Rc4cliPdKw98/mcUUG9rDwjJl5Otjxh1chmbe2MTIlJVsfGgPv4foLKoYRV714gag1BvFCDbv4yOG1iS9E2ZOIY7V4byY44DqmVSG4nyonm3B9YJW+FxE8H6m2jebFpsXUpLJCaaiTwLoQ1aV4QxfAnJkklJ1RXLdTfZxQQBW30l8alJsZsYn433zzlPpsKt2oqvqRfxrQWxa0aa3Pw7NBozMvlKgiDYRo+UReNquKeT7FUjxP0fYBLfAqcF4w6EP/9bhVhqGSzPjPkuCiha/LhkEz9txYJLRo+2IwBV8mYRCjOioXt+c0EuZOAvWmt2ylH+kqn3LwHtB8ljVtOqn7Kwa858=
+       properties :
+        y : 35
+        width : 496
+        height : 166
+       type : 33
+       code_elements :
+        type_code : 72
+        p_codes : []
+     -
+       name : STC_TURNOVER4
+       identifier : 0x2006eeb150af4230
+       internal_properties : CAAAAAgAAAAEnbA60HW8dgCF1YCwJSaVzDDfW7iuLGC4/gSq7540DW55jcFbmhN1o1VBqp6lxl68PhaesJsS1TaWtlBhD9eNWGIHvxD80jlpNAtxGr9sK9oZFTlXvACQyAvWua8vSqUp9KILrchtGsICoWK+JsItvXQt2KboBS+ueQ05lb19PmomPDbPsVnB59ZXFmaWwvbHD7XhalcQDw3r9iYx1cXfKoxYP9vdCqDk6Z80xCMApsMO0KFZhXMAl2D56evZN071fhsJEE8fsHqKJbjI1Q3I0clhqtLnFj/bND+zEbhZOxCk1ovuW0of3rMdTmlVK1qyCxyC4C26BBjunL8JTciifHDRUOrEXDfoVpJwbQE1Mb3ARi/2hB24RWhfXBxcvxAD5FSgyV+Rww21vyyWgpCjqGTp3g==
+       properties :
+        width : 496
+        height : 34
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         procedure MyWindow()
+         
+         RefreshTop10Products()
+      -
+        code : |1-
+         
+         RefreshTop10Products()
+        type : 198
+ menu :
+  name : _Menu
+  identifier : 0x27ed0d8206f644c5
+  internal_properties : CAAAAAgAAAB0Z36LRs4f2mayqsNwhGkzHRL4uzICcrC4iWUBq5qfGB9I7tMGVjmknpUXvy62LwrKAO8LRcAkhDEASUaYD9xJWDqg9nl4OppsljMn+Xj4taphWIITCop6jxgYqldtVxbV04zc7uovGXpSTx3A+5yidXlCeY2gNPMXkG42oIZ9kPLIqoxP16d23N8eKAsrlhNOGHBp2oVoBmwd7RGgZmzrM1ZcXtNsa/ImPdmbit0djHrzCLcuGTSE0M+QxALSnj7cxVQ65AZxIUyCTvPrG8DiG0SwpF5fLFiD5kQl/r7kdwTMzAT4yClSxoJUn4HQX+w=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : RefreshTop10Products
+     procedure_id : 1154872798508040752
+     type_code : 14
+     code : |1-
+      // Summary: Refreshes the 10 best sellers
+      procedure RefreshTop10Products()
+      
+      //Delete the previous data from the chart
+      grDeleteSeries(CHART_BestProduct,1, grData)
+      
+      <compile if TypeConfiguration=iOS>
+      	grTooltip(CHART_BestProduct,grTooltipFormat, "Ref: " + "[%CATEGORY%]" + CR + "Quantity: " + "[%VALUE%]" ) 
+      <end>
+      
+      //Then browse the query to add the data into the chart
+      nSubscript is int
+      for each QRY_10BestSellers FromEnd
+      	
+      	nSubscript++
+      	grCategoryLabel(CHART_BestProduct,nSubscript,QRY_10BestSellers.Reference)
+      	grAddData(CHART_BestProduct,1, nSubscript, QRY_10BestSellers.TotalQty)	
+      	
+      end
+      
+      grDraw(CHART_BestProduct)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fdba7070127dc75
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

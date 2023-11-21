@@ -1,0 +1,110 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_WidgetPendingReminders
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : IW_WidgetPendingReminders
+ identifier : 0x2006eeb050923d5d
+ internal_properties : CAAAAAgAAAATf/4uO62J16SXS87Tigx19LMPjrNEfT4odybFPE/VFeFGijkpYk0kslTluRL6NRR/CNd+MJh1Zn/HatWMGgtxEXynt/YECOLTEnxPATqLInMcgXJoSlNXyOEnWyRQFoqAVAWQV2Fq9CjndQdPimnibONwhAcy95RHjqHvFPSJmt3/wNhcq/qZdaFUingfQQU6HH7Dlw4zqECzsBB4PqPh0K49DcjbnuCAG13I4ssbBKSt3kdLMbsjN4B2hH2LIosQ/Rart9JHYtIK4AxDZVZspvI/ul9ae01YbxtZymSXWX2vFc196AVZ81eXS9uXM/H8x/jU8RiZHL51vCf3cyvTXcqOKafbUcpmnBv/lvonit9Y/G3+9UxLApC5Fvp5W/ce/W+YZ5zKtu5ib1n/k67TvEOWv4tRPmUkfBJPOrP22EmgA8+TPGUlZwh6uhFdkY8p4E0dWNlOpR88AS3WAZiBE7Kxva4ihF13viFw82ou9oFyE39LCjNKlb85LwWo9lTclx6gTnH+Kpe6XmOgfVb2xmVWa5nB4LNM403Enb09wjfDvyLCnM+KIEdK2GEaBFsZqFnhBGNgtKgB++8rQhK9PTIEDBpS3IeSMmQ/qjQs8DCNzyBqfacvmTKh/M1swAjv05u4XU4jQAAlT6rgUjw0Ga7WcYQ7CkzOM/QSHUPUsAkaZUJQLzNCR1InofZtfLzkEa+njGHRm76cfh0IYLQnMm9OlKu5/TT0ly1Gmu1ksonmzphmUbaNh7S4qmMDr+WrwDhKeukUF8Na01yf3kxASexnkdjNwIFoEDA3InAVa7OXxcckp9fU/psPOKgf
+ properties :
+  width : 248
+  height : 100
+ controls :
+  -
+    name : IW_WidgetPendingReminders
+    identifier : 0x2006eeb050933d5d
+    internal_properties : CAAAAAgAAADpp+EpT4riJRBENKkJ+TN2iYtS4Zg+Uz5rGumGfYpse1qxdnm2N5+7C86UFoM+wgMQE1ciJvfLhATsG92xUgGd1ViODEMsxXt3eUgLX1SzuC+nPGanapOQsH2ZH4pkaPo/U9DPwNtw3Cfz8QNjfehwvlQh1z3A7gxIyPJ3TLqXMLk67iTJANqoCRjjYeHK+/vA9PJOaccxxg/Cz52hchbq4zNHWHPxd63EJxFg6ZlGrz6xDIPUU4I/WdPkhKnQwXNW39hfDHOlk1xoaDcupv1Dt5jkQcCFNjNFesyGIv9nJGABkH94Q4ZhGq3eS2OIfR2EklM6ksENaEsA0nBf2Ubpaqt08TdMFJfdkPtoxU9ijQ9GvFkOCMM8W4DzCAMusPHi8uH1+laoalbrgd60pqdYY1FzkEiAAlz97nAm8BwzL6fKsPeXd7KKuzaZO04IIi7RHM+uC/m8dbTHacKRtUoXylCrSCVlWJKiDhJ8xEPwFYRW7Is=
+    properties :
+     width : 248
+     height : 100
+    controls :
+     -
+       name : IMG_NoName3
+       identifier : 0x2006eeb050943d5d
+       internal_properties : CAAAAAgAAAD4XgImBRH6y64K5nEd+xrHYwSvQvVn/9MGai5OB3zlQXuwDzrhK2iNR8qfo9Fttmq+lySCHd6DUMbCFlU1u3i1hLEgnQM07lpia6j8g2NIRmkZyGT4z9uupwwsJvjnJ6Jw4jW/iN51wzwj4er4nAwvNKr/ox2YBSdYdb7Y+F1ooywUslNI1Uvpk6GBi/MO0qn1BPuFnAWMIbo2xKDcssaA8akwJTMWC0vWG0HBp0xpxeorgHvr4rQLmmt7ECaQwWZII1cLneMPIn1JyO4ISBjEJwWwtKhwzg7iwClWe5cZQm2352oKlvTmOKxUUrgczUSmntMUrqhCWyRkQt+11yuzgzhudzdJn6ecmgumAzUxXLoW0WqrU19HHPdnT9Rt5UF0Jnn26/klp2t9FWAD8ZYETJgQuTCkaAV5NeHYPGXWerFYryk1MY5xDOzgKCnFtMS5jkBn3cQVt4OGvo95QUl6oHMJmmuUwdOgX83U2fkggU3UuolKSWBkxe+dMn76FwUXZGRdFlL660yfDpNcKB/NzcIoBsyUd/UeoygoQVshk/p4sT1XsTBCt6+UiLgyXvHd3yOkvC6wlafIogLx8+CEOtzgczf719Kr1Y2EsqDk1cw3lY+FYNFEGHf5JTmjzHfanmYwFmTxttMeCyZu//fJz1Y8vwk61uKcf/NK/mrGpGHu+GkmbyejAjqZGOxM2aSqAMY7tXp1VeZtmJupOtaA0JHoY7XPcvcJL65l1ekLNyf2j7zkLPZ4qQgV5W/sgIA0lTvZMbJpKDDzJSZQ/j94jflhrJoxKbRZ2NERMN0UIUI4y6nyrijWSYaMWivaTUrvDw8JgQ5wsDtAvhwy6MK1DjzBVzr77riWGSYx58xHRmf8cr+BDIkSLFnEnw==
+       properties :
+        width : 248
+        height : 99
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : STC_REMINDER_DATA
+       identifier : 0x2006eeb050953d5d
+       internal_properties : CAAAAAgAAADcM49kOfFhHRMiih6JD2RK3QPzA1rE3MIsh+YEQXFSXku9CnIRRbF6bpri69U3b4atjEElNPeNyR+4YzQvK/2Z2iqajxxc+0ibJ9FzP0kymlbtzE4gRsrhKIruyyBbyHQsm853xKvTCc6WJF+yNpBYvmZXuBNB69Py1hKyhtg0x0Tvllht9AOU8hTD1yVfYzlLADR7R2deDiad0jCpkkrPHMXKQJPe+ve/eHhVJ4oQtZNarB3IBsm2suXfhAzGqBId/CojjjIQvsGoMZ+oFHddhdJHvGFF1FNZjprUsyYQdcsGXw7VItcSLtPXXpCob91LeHhAA8gTTCnJAoJZgkRlz356jdtx5W5/OV+0mgoQRbwCu2WrGeI7rc/0NLD0RbAMh6wpnZODrJpdzNSwY9z3rg7qEpgUaTNULAbpedjTUA==
+       properties :
+        x : 8
+        y : 37
+        width : 232
+        height : 53
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+     -
+       name : STC_Pending_reminders
+       identifier : 0x2006eeb050963d5d
+       internal_properties : CAAAAAgAAACtg0B3RBPWqNXSI14+D1oiFienypMPDhJTkPz7UFYWVI27poDlvxZn8bJl+tahuYvSIM5+y3AHxH9Z9FE1wmUSQnZHffMjrg2X7KcB93vUCmPmPC2yRB071fPo11cuLKM8TiqAQBmcYNPx8BiphVPPjGHLfg9kHBHv4q1AsYJyZK1ugWjruh44wgeskWUmP1YRbWI0+ZZkiTRy5Y4/OAf0a5qQ1KA0kRP7qXarYQ147iGtl7PmGYekqu3f9QSZ0B/DBmktCw55i7vXjbki+VFsNaHGC/3IShjKWbCJ1Z7r9BXlYPH9ebHKSq8a7RUSkludGl8Mi4lzt1Kee+0nr1IGZL+ay/z9ruWYVgZBPK9AR4xsVS9udVXK9i2sPMXXX/eotxXe3zrCj42kwGQmkQ==
+       properties :
+        width : 248
+        height : 30
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         procedure MyWindow()
+         
+         
+         // Update the number of reminders
+         STC_REMINDER_DATA = gnNbReminders
+      -
+        code : |1+
+         
+         
+        type : 234
+      -
+        code : |1+
+         
+         // Update the number of reminders
+         STC_REMINDER_DATA = gnNbReminders
+        type : 198
+ menu :
+  name : _Menu
+  identifier : 0x27ed0ddd0718a6f5
+  internal_properties : CAAAAAgAAAB0Z36LRs4f2mayqsNwhGkzHRL4uzICcrC4iWUBq5qfGB9I7tMGVjmknpUXvy62LwrKAO8LRcAkhDEASUaYD9xJWDqg9nl4OppsljMn+Xj4taphWIITCop6jxgYqldtVxbV04zc7uovGXpSTx3A+5yidXlCeY2gNPMXkG42oIZ9kPLIqoxP16d23N8eKAsrlhNOGHBp2oVoBmwd7RGgZmzrM1ZcXtNsa/ImPdmbit0djHrzCLcuGTSE0M+QxALSnj7cxVQ65AZxIUyCTvPrG8DiG0SwpF5fLFiD5kQl/r7kdwTMzAT4yClSxoJUn4HQX+w=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fdba7070121dbe8
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

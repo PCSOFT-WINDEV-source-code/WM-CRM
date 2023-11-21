@@ -1,0 +1,120 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pNotifications
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1f50a4bf0046b5ed
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAADPmZTShfgV/sgngfKMxOUjcyujuqYnbNpNZHwgPeRDd+Jz7EhwfnX6Jvdn5psZU/5knB9Vh404TB3DDH8jBDfJYdFSRl+PIlCKtOZkQMjOZOSZxE1H/XOEWrLf2ZGRk0DAe8+hkKkt2wegk1TkPEM1k3ezktKxumdc5OpPIPxaRyTT4z+bES7KuOenWaUwhTZa3g==
+  type_code : 31
+  p_codes :
+   -
+     code : |1+
+      constant
+      	// Type of notifications
+      	NOTIF_CONTACT_MODIF	 = 1
+      	NOTIF_REMINDER_MODIF	 = 2
+      	NOTIF_ORDER_MODIF = 3
+      	NOTIF_CUSTOMER_SELECTION = 4
+      	NOTIF_PRODUCT_SELECTION = 5
+      end
+      
+      // Array of observers
+      gaaObservers is ASSOCIATIVE ARRAY (WithoutDuplicates) of strings
+     type : 720896
+  procedures :
+   -
+     name : Subscription
+     procedure_id : 2256485111908774552
+     type_code : 15
+     code : |1+
+      // Summary: Subscribe a window to a notification
+      // Syntax:
+      //Subscription (<sWindowName>, <nNotif>, <nNotifParam>)
+      //
+      // Parameters:
+      // 	sWindowName: Name of the window to notify
+      // 	nNotif: Type of notification
+      // 	nNotifParam: Parameter for the notification, an auto ID in most cases (=> depends on the type of notification)
+      // Return value:
+      // 	None
+      
+      procedure Subscription( sWindowName , nNotif , nNotifParam )
+      
+      sCurrentList is string = gaaObservers[nNotif+"/"+nNotifParam]
+      if Position(sCurrentList+";",sWindowName+";") = 0 then
+      	gaaObservers[nNotif+"/"+nNotifParam] = sCurrentList+[";"]+sWindowName
+      end
+      
+     type : 458752
+   -
+     name : Unsubscription
+     procedure_id : 2256485369606872421
+     type_code : 15
+     code : |1+
+      // Summary: Unsubscribe a window from a notification
+      
+      procedure Unsubscription( sWindowName , nNotif , nNotifParam )
+      
+      sCurrentList is string = gaaObservers[nNotif+"/"+nNotifParam]
+      if Position(sCurrentList, sWindowName ) > 0 then
+      	
+      	sNewList is string = sCurrentList
+      	sNewList = Replace(sNewList, sWindowName, "")
+      	sNewList = Replace(sNewList, TAB + TAB , TAB)
+      	
+      	gaaObservers[nNotif+"/"+nNotifParam] = sNewList
+      	
+      end
+      
+     type : 458752
+   -
+     name : Notify
+     procedure_id : 2256487220737816110
+     type_code : 15
+     code : |1+
+      // Summary: Notification system
+      
+      procedure Notify( nNotif , nNotifParam )
+      
+      sListObservers is string
+      
+      // Specific observers of this notification and parameter
+      if gaaObservers[nNotif+"/"+nNotifParam]..Empty=False then
+      	sListObservers += [TAB] + gaaObservers[nNotif+"/"+nNotifParam]
+      end
+      
+      // Generic observers of this notification
+      if gaaObservers[nNotif+"/*"]..Empty=False then
+      	sListObservers += [TAB] + gaaObservers[nNotif+"/*"]
+      end
+      
+      // Generic observers
+      if gaaObservers["*/*"]..Empty=False then
+      	sListObservers += [TAB] + gaaObservers["*/*"]
+      end
+      
+      for each string sSubscriberWindow of sListObservers
+      	
+      	ExecuteProcess(sSubscriberWindow+".Notification",trtProcedure,nNotif,nNotifParam)	
+      	
+      end
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fdba70600f1d9b6
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
